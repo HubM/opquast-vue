@@ -1,0 +1,15 @@
+.btn {
+  background-color: $color-princess-dark;
+  border: 1px solid $color-princess-dark;
+  padding: 8px 10px;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 12px;
+  min-width: 100px;
+  font-weight: 900;
+
+  &:hover {
+    background-color: #fff;
+    color: $color-princess-dark;
+  }
+}

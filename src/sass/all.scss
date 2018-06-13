@@ -1,6 +1,10 @@
-// Libs CSS
+// libs CSS
 @import "~bulma";
 @import "~buefy/src/scss/buefy";
 
-// Main
+// main
+@import "_var";
 @import "_main";
+
+// components
+@import "components/buttons";
