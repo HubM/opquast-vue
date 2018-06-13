@@ -1,15 +1,20 @@
 .btn {
-  background-color: $color-princess-dark;
-  border: 1px solid $color-princess-dark;
   padding: 8px 10px;
   text-transform: uppercase;
-  color: #fff;
   border-radius: 12px;
   min-width: 100px;
   font-weight: 900;
+  transition: all $fast-animation ease-in-out;
+  cursor: pointer;
 
-  &:hover {
-    background-color: #fff;
-    color: $color-princess-dark;
+  &.primary {
+    background-color: $color-princess-dark;
+    border: 1px solid $color-princess-dark;  
+    color: #fff;
+    
+    &:hover {
+      background-color: #fff;
+      color: $color-princess-dark;
+    }
   }
 }

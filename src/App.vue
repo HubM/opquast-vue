@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <Button message="click" />
+    <h1>h1 text style</h1>
+    <h2>h2 -- Titles text style</h2>  
+    <p>Je suis un paragraphe</p>
+    <Button class="btn primary" message="click" />
   </div>
 </template>
 
@@ -18,3 +21,7 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+  @import '~styles';
+</style>

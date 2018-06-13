@@ -61,7 +61,7 @@ module.exports = {
         exclude: /node_modules/
       },
       {
-        test: /\.(png|jpg|gif|svg)$/,
+        test: /\.(png|jpg|gif|svg|woff|woff2)$/,
         loader: 'file-loader',
         options: {
           name: '[name].[ext]?[hash]'
@@ -73,6 +73,7 @@ module.exports = {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       'styles': path.resolve(__dirname, 'src/sass/all.scss'),
+      'fonts': path.resolve(__dirname, 'src/fonts/'),
     },
     extensions: ['*', '.js', '.vue', '.json']
   },

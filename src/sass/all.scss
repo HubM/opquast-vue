@@ -1,10 +1,12 @@
+@import "var";
+
 // libs CSS
 @import "~bulma";
 @import "~buefy/src/scss/buefy";
 
 // main
-@import "_var";
-@import "_main";
+@import "fonts";
+@import "main";
 
 // components
 @import "components/buttons";

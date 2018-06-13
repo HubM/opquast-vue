@@ -1,17 +1,49 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
 
 @font-face {
-    font-family: 'allerbold';
-    src: url('../fonts/aller_bd-webfont.woff2') format('woff2'),
-         url('../fonts/aller_bd-webfont.woff') format('woff');
+    font-family: 'aller_lightregular';
+    src: url('~fonts/aller_lt-webfont.woff2') format('woff2'),
+         url('~fonts/aller_lt-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'aller_lightregular';
-    src: url('../fonts/aller_lt-webfont.woff2') format('woff2'),
-         url('../fonts/aller_lt-webfont.woff') format('woff');
+    font-family: 'allerbold';
+    src: url('~fonts/aller_bd-webfont.woff2') format('woff2'),
+         url('~fonts/aller_bd-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+
+/*
+  Elements font style
+*/
+body {
+  font-family: $font-roboto;
+  font-size: 10px;
+  color: #000;
+}
+h1 {
+  font-family: $font-aller-bold;
+  font-size: 30px;
+  color: #000;
+}
+h2 {
+  font-family: $font-aller-regular;
+  font-size: 22px;
+  color: #000;
+}
+h3 {
+  font-family: $font-roboto;
+  font-weight: 900;
+  color: $color-pirate;
+}
+button,
+a {
+  font-family: $font-roboto;
+  font-weight: 900;
+  color: $color-pirate;
+  letter-spacing: 1px;
 }
