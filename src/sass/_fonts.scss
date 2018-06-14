@@ -22,28 +22,36 @@
 */
 body {
   font-family: $font-roboto;
-  font-size: 10px;
+  font-size: 14px;
   color: #000;
 }
 h1 {
   font-family: $font-aller-bold;
-  font-size: 30px;
+  font-size: 55px;
   color: #000;
 }
 h2 {
   font-family: $font-aller-regular;
-  font-size: 22px;
+  font-size: 45px;
   color: #000;
 }
 h3 {
   font-family: $font-roboto;
   font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 15px;
+  text-transform: uppercase;
   color: $color-pirate;
 }
+
 button,
 a {
   font-family: $font-roboto;
   font-weight: 900;
   color: $color-pirate;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  font-size: 15px;
 }
+
+// items menus 12px uppercase letter spacing 
+// items dropdown menu 16px

@@ -1,20 +1,66 @@
 .btn {
-  padding: 8px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 160px;
+  cursor: pointer;
+  padding: 15px 10px 15px 20px;
   text-transform: uppercase;
   border-radius: 12px;
-  min-width: 100px;
   font-weight: 900;
   transition: all $fast-animation ease-in-out;
-  cursor: pointer;
 
-  &.primary {
-    background-color: $color-princess-dark;
-    border: 1px solid $color-princess-dark;  
-    color: #fff;
+  svg {
+    width: 25px;
+    height: auto;
+    margin-left: 15px;
+
+    .arrow {
+      display: block;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: transform $fast-animation ease-in-out;
+  
+    }
+  }
+
+  &:hover {
+    .arrow {
+      transform: translateX(5px);
+    }
+  }
+
+}
+
+.btn-primary {
+  background-color: $color-princess-dark;
+  color: #fff;
     
-    &:hover {
-      background-color: #fff;
-      color: $color-princess-dark;
+  .arrow {
+    fill: #fff;
+  }
+
+  &:hover {
+    background-color: lighten($color-princess-dark, 5%);
+  }
+
+}
+
+.btn-primary-outline {
+  background-color: #fff;
+  border: 1px solid $color-princess-dark; 
+  color: $color-princess-dark;
+
+  .arrow {
+    fill: $color-princess-dark;
+  }
+
+  &:hover {
+    border: 1px solid lighten($color-princess-dark, 10%);
+    color: lighten($color-princess-dark, 10%); 
+    .arrow {
+      fill: lighten($color-princess-dark, 10%);
     }
   }
 }

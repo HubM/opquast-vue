@@ -74,6 +74,7 @@ module.exports = {
       'vue$': 'vue/dist/vue.esm.js',
       'styles': path.resolve(__dirname, 'src/sass/all.scss'),
       'fonts': path.resolve(__dirname, 'src/fonts/'),
+      'assets': path.resolve(__dirname, 'src/assets/')
     },
     extensions: ['*', '.js', '.vue', '.json']
   },
