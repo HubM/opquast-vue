@@ -2,7 +2,13 @@
 // items dropdown menu 16px
 
 header {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+
+  nav {
+    min-width: 35%;
+  }
 }
 
 .logo {
@@ -10,9 +16,70 @@ header {
 }
 
 .main-items {
+  & > li{
+    font-family: $font-aller-regular;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+  }
+  .main-items__title {
+    font-size: 16px;
+    display: inline-block;
+  }
+}
+
+
+
+.main-items__sublinks {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  min-width: 300px;
+  background-color: #fff;
+  border: 1px solid $color-geyser;
+  border-radius: 10px;
+  padding: 5px 20px;
+  transform: translateX(-25%);
+  opacity: 0;
+
+  &.active {
+    opacity: 1;
+  }
+
   li {
-    span {
-      font-size: 16px;
+    display: flex;
+    align-items: center;
+    line-height: 15px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    
+    &:not(:last-of-type) {
+      margin-bottom: 10px;
     }
+
+    & > img {
+      margin-right: 10px;
+    }
+  }
+}
+
+.main-items__sublink__content {
+  p {
+    font-size: 12px;
+    font-family: $font-aller-bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  span {
+    color: $color-shuttle-gray;
+    font-size: 10px;
+  }
+}
+
+.main-links {
+  li {
+    font-family: $font-aller-bold;
+    text-transform: uppercase;
+    cursor: pointer;
   }
 }

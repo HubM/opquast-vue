@@ -1,14 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="205" height="80" viewBox="0 0 205 80">
-    <g fill="none" fill-rule="evenodd">
-        <path fill="#FFF" fill-opacity="0" d="M0 0h205v80H0z"/>
-        <path fill="#7FD16B" d="M51.776 21.872l3.772 3.772a1.2 1.2 0 0 1 0 1.697L40.274 42.614l-5.469-5.469L50.08 21.872a1.2 1.2 0 0 1 1.697 0z"/>
-        <path fill="#BBECB0" d="M21.098 32.566l3.778-3.778a1.2 1.2 0 0 1 1.697 0l13.844 13.855-11.102-.047-8.223-8.339a1.2 1.2 0 0 1 .006-1.69z"/>
-        <g>
-            <path fill="#78C5C8" d="M35.224 59.128l-3.772-3.772a1.2 1.2 0 0 1 0-1.697l15.274-15.273 5.469 5.469L36.92 59.128a1.2 1.2 0 0 1-1.697 0z"/>
-            <path fill="#ADE8EC" d="M65.902 48.434l-3.778 3.778a1.2 1.2 0 0 1-1.697 0L46.583 38.357l11.102.047 8.223 8.339a1.2 1.2 0 0 1-.006 1.69z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="165px" height="39px" viewBox="0 0 165 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo/light" transform="translate(-20.000000, -21.000000)">
+            <g id="Group-2">
+                <g transform="translate(20.000000, 20.000000)">
+                    <g id="embleme" transform="translate(0.000000, 1.000000)">
+                        <g id="Group">
+                            <path d="M22.9337655,-0.581266248 L28.2679428,-0.581266248 C28.9306844,-0.581266248 29.4679428,-0.0440079476 29.4679428,0.618733752 L29.4679428,22.2187338 L21.7337655,22.2187338 L21.7337655,0.618733752 C21.7337655,-0.0440079476 22.2710238,-0.581266248 22.9337655,-0.581266248 Z" id="Rectangle-2" fill="#7FD16B" transform="translate(25.600854, 10.818734) rotate(-315.000000) translate(-25.600854, -10.818734) "></path>
+                            <path d="M7.67674527,6.66241122 L13.0193559,6.66195656 C13.6820976,6.66195656 14.2193559,7.19921486 14.2193559,7.86195656 C14.2193559,7.86210814 14.2193559,7.86225972 14.2193558,7.8624113 L14.2114788,27.4486946 L6.39418099,19.5648666 L6.47677511,7.85394813 C6.48142585,7.19452549 7.01730623,6.66241122 7.67674527,6.66241122 Z" id="Rectangle-2" fill="#BBECB0" transform="translate(10.306768, 17.055324) rotate(-45.000000) translate(-10.306768, -17.055324) "></path>
+                        </g>
+                        <g id="Group" transform="translate(28.556962, 25.200000) scale(-1, -1) translate(-28.556962, -25.200000) translate(10.113924, 11.400000)">
+                            <path d="M22.9337655,-0.581266248 L28.2679428,-0.581266248 C28.9306844,-0.581266248 29.4679428,-0.0440079476 29.4679428,0.618733752 L29.4679428,22.2187338 L21.7337655,22.2187338 L21.7337655,0.618733752 C21.7337655,-0.0440079476 22.2710238,-0.581266248 22.9337655,-0.581266248 Z" id="Rectangle-2" fill="#78C5C8" transform="translate(25.600854, 10.818734) rotate(-315.000000) translate(-25.600854, -10.818734) "></path>
+                            <path d="M7.67674527,6.66241122 L13.0193559,6.66195656 C13.6820976,6.66195656 14.2193559,7.19921486 14.2193559,7.86195656 C14.2193559,7.86210814 14.2193559,7.86225972 14.2193558,7.8624113 L14.2114788,27.4486946 L6.39418099,19.5648666 L6.47677511,7.85394813 C6.48142585,7.19452549 7.01730623,6.66241122 7.67674527,6.66241122 Z" id="Rectangle-2" fill="#ADE8EC" transform="translate(10.306768, 17.055324) rotate(-45.000000) translate(-10.306768, -17.055324) "></path>
+                        </g>
+                    </g>
+                    <text id="opquast" font-family="Aller-Bold, Aller" font-size="30" font-weight="bold" letter-spacing="-0.46875" fill="#0A1650">
+                        <tspan x="57" y="27">opquas</tspan>
+                        <tspan x="153.5475" y="27" letter-spacing="-0.4394531">t</tspan>
+                    </text>
+                </g>
+            </g>
         </g>
-        <text fill="#0A1650" font-family="Aller-Bold, Aller" font-size="30" font-weight="bold" letter-spacing="-.469">
-            <tspan x="77" y="47">opquas</tspan> <tspan x="173.548" y="47" letter-spacing="-.439">t</tspan>
-        </text>
     </g>
 </svg>
