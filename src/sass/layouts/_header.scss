@@ -1,0 +1,18 @@
+// items menus 12px uppercase letter spacing 
+// items dropdown menu 16px
+
+header {
+  align-items: center;
+}
+
+.logo {
+  max-width: 260px;
+}
+
+.main-items {
+  li {
+    span {
+      font-size: 16px;
+    }
+  }
+}
