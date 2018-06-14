@@ -14,18 +14,11 @@ export default {
   props: [
     "subItem",
     "color",
+    "lightenColor"
   ],
   computed: {
     colorize() {
       return `color: ${ this.color }`;
-    }
-  },
-  data () {
-    return {
-    }
-  },
-  methods: {
-    hovered() {
     }
   }
 }

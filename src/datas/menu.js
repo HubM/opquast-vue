@@ -3,6 +3,7 @@ export default {
     0: {
       name: "Certifications",
       color: "#40aa27",
+      class: "certifs",
       subLinks: {
         0: {
           name: "Certification Opquast",
@@ -21,6 +22,7 @@ export default {
     1: {
       name: "Formations",
       color: "#00a2ba",
+      class: "formations",
       subLinks: {
         0: {
           name: "Écoles",
@@ -44,6 +46,7 @@ export default {
     },
     2: {
       name: "Bonnes pratiques",
+      class:"practices",
       color: "#fc4b62",
       subLinks: {
         0: {

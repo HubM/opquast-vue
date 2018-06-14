@@ -3,7 +3,7 @@
     <img src="~assets/logo.svg" alt="Logo Opquast" class="logo">
     <nav>
       <ul class="columns main-items">
-        <mainItem v-for="(item,key) in menu.mainItems" :item="item" :key="key" class="column"/>
+        <mainItem v-for="(item,key) in menu.mainItems" :item="item" :key="key" class="column" />
       </ul>
     </nav>
     <ul class="columns main-links">
