@@ -74,19 +74,19 @@ header {
 
 
   &.certifs li:hover {
-    background-color: #f7fff5;
+    background-color: $color-menu-lighten-skunk;
     border-color: $color-skunk;
   }
 
   &.formations li:hover {
-    background-color: #f4feff;
+    background-color: $color-menu-lighten-aqua;
     border-color: $color-aqua;
   }
 
   &.practices {
     min-width: 230px;
     li:hover {
-      background-color: #fff9f7;
+      background-color: $color-menu-lighten-princess;
       border-color: $color-princess;   
     }
   }
