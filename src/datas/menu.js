@@ -9,20 +9,21 @@ export default {
           name: "Certification Opquast",
           description: "La certification des professionnels du web",
           icon: "src/assets/menu/certification-certif.svg",
-          link: "/",
+          link: "/certification",
         },
         1: {
+          name: "Formations",
+          description: "Les différentes formations",
+          icon: "src/assets/menu/certification-formations.svg",
+          link: "/formations",
+        },        
+        2: {
           name: "Faq",
           description: "Les réponses à vos questions !",
           icon: "src/assets/menu/certification-faq.svg",
           link: "/faq",
         },
-        2: {
-          name: "Formations",
-          description: "Les différentes formations",
-          icon: "src/assets/menu/certification-faq.svg",
-          link: "/formations",          
-        }
+
       }
     },
     1: {
@@ -42,12 +43,6 @@ export default {
           icon: "src/assets/menu/formation-entreprise.svg",
           link: "/entreprises",
         },
-        // 2: {
-        //   name: "Particuliers",
-        //   description: "Les réponses à vos questions !",
-        //   icon: "src/assets/menu/formation-particulier.svg",
-        //   link: "/particuliers",
-        // }
       }    
     },
     2: {

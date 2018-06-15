@@ -1,11 +1,11 @@
 <template>
-   <h1>Checklist page</h1>
+   <h1>Blog page</h1>
 </template>
 
 <script>
 
 export default {
-  name: 'Checklist',
+  name: 'Blog',
 }
 </script>
 

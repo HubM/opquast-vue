@@ -1,11 +1,11 @@
 <template>
-   <h1>Checklist page</h1>
+   <h1>Certification page</h1>
 </template>
 
 <script>
 
 export default {
-  name: 'Checklist',
+  name: 'Certification',
 }
 </script>
 
