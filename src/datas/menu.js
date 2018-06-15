@@ -16,13 +16,19 @@ export default {
           description: "Les réponses à vos questions !",
           icon: "src/assets/menu/certification-faq.svg",
           link: "/faq",
+        },
+        2: {
+          name: "Formations",
+          description: "Les différentes formations",
+          icon: "src/assets/menu/certification-faq.svg",
+          link: "/formations",          
         }
       }
     },
     1: {
-      name: "Formations",
+      name: "Partenariat",
       color: "#00a2ba",
-      class: "formations",
+      class: "partenariat",
       subLinks: {
         0: {
           name: "Écoles",
@@ -36,12 +42,12 @@ export default {
           icon: "src/assets/menu/formation-entreprise.svg",
           link: "/entreprises",
         },
-        2: {
-          name: "Particuliers",
-          description: "Les réponses à vos questions !",
-          icon: "src/assets/menu/formation-particulier.svg",
-          link: "/particuliers",
-        }
+        // 2: {
+        //   name: "Particuliers",
+        //   description: "Les réponses à vos questions !",
+        //   icon: "src/assets/menu/formation-particulier.svg",
+        //   link: "/particuliers",
+        // }
       }    
     },
     2: {
