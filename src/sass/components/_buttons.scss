@@ -43,27 +43,27 @@
   &:hover {
     border-color: lighten($color-aqua-dark, 5%);
     color: lighten($color-aqua-dark, 5%);
-    
+
     .arrow {
       fill: lighten($color-aqua-dark, 5%);
     }
   }
 }
 
-.btn-primary-outline {
-  background-color: #fff;
-  border: 1px solid $color-princess-dark; 
-  color: $color-princess-dark;
+// .btn-primary-outline {
+//   background-color: #fff;
+//   border: 1px solid $color-princess-dark; 
+//   color: $color-princess-dark;
 
-  .arrow {
-    fill: $color-princess-dark;
-  }
+//   .arrow {
+//     fill: $color-princess-dark;
+//   }
 
-  &:hover {
-    border: 1px solid lighten($color-princess-dark, 10%);
-    color: lighten($color-princess-dark, 10%); 
-    .arrow {
-      fill: lighten($color-princess-dark, 10%);
-    }
-  }
-}
+//   &:hover {
+//     border: 1px solid lighten($color-princess-dark, 10%);
+//     color: lighten($color-princess-dark, 10%); 
+//     .arrow {
+//       fill: lighten($color-princess-dark, 10%);
+//     }
+//   }
+// }

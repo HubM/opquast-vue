@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="339" height="630" viewBox="0 0 339 630">
+    <defs>
+        <path id="a" d="M.01.65h136.98c.007.399.01.8.01 1.2 0 37.832-30.668 68.5-68.5 68.5S0 39.683 0 1.85c0-.4.003-.801.01-1.2z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FED3C2" d="M0 30h310v579H0z"/>
+        <g fill="#FFECE4">
+            <path d="M339 483l-87-87h87z"/>
+            <path d="M339 403l-87-87h87z"/>
+            <path d="M339 318l-87-87h87z"/>
+        </g>
+        <g fill="#FFECE4">
+            <path d="M0 470h40v40H0zM0 510h80v40H0zM0 550h120v40H0zM0 590h160v40H0z"/>
+        </g>
+        <g transform="translate(165 208)">
+            <mask id="b" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <use fill="#FFF" xlink:href="#a"/>
+            <path fill="#FF8F68" d="M87 23l87 87H87z" mask="url(#b)" transform="rotate(180 130.5 66.5)"/>
+        </g>
+        <circle cx="67.5" cy="98.5" r="7.5" fill="#F9FBFC"/>
+        <circle cx="67.5" cy="53.5" r="7.5" fill="#F9FBFC"/>
+        <circle cx="67.5" cy="7.5" r="7.5" fill="#FFECE4"/>
+        <circle cx="22.5" cy="99.5" r="7.5" fill="#F9FBFC"/>
+        <circle cx="22.5" cy="54.5" r="7.5" fill="#F9FBFC"/>
+        <circle cx="22.5" cy="8.5" r="7.5" fill="#FFECE4"/>
+        <circle cx="112.5" cy="98.5" r="7.5" fill="#F9FBFC"/>
+        <circle cx="112.5" cy="53.5" r="7.5" fill="#F9FBFC"/>
+        <circle cx="112.5" cy="7.5" r="7.5" fill="#FFECE4"/>
+        <circle cx="157.5" cy="98.5" r="7.5" fill="#F9FBFC"/>
+        <circle cx="157.5" cy="53.5" r="7.5" fill="#F9FBFC"/>
+        <circle cx="157.5" cy="7.5" r="7.5" fill="#FFECE4"/>
+        <circle cx="106.5" cy="351.5" r="56.5" fill="#FF8F68"/>
+    </g>
+</svg>
