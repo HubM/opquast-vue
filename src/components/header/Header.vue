@@ -9,7 +9,7 @@
       </ul>
     </nav>
     <ul class="columns main-links">
-      <router-link tag='li' to='item.link' class="column" v-for="(item, key) in menu.links" :key="key">
+      <router-link tag='li' :to='item.link' class="column" v-for="(item, key) in menu.links" :key="key">
         {{ item.name }}
       </router-link>
     </ul>

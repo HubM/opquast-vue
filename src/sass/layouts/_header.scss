@@ -73,17 +73,20 @@ header {
 
 
 
-  &.certifs li:hover {
+  &.certifs li:hover,
+  &.certifs .router-link-active {
     background-color: $color-menu-lighten-skunk;
     border-color: $color-skunk;
   }
 
-  &.partenariat li:hover {
+  &.partenariat li:hover,
+  &.partenariat .router-link-active {
     background-color: $color-menu-lighten-aqua;
     border-color: $color-aqua;
   }
 
-  &.practices {
+  &.practices,
+  &.practices .router-link-active {
     min-width: 230px;
     li:hover {
       background-color: $color-menu-lighten-princess;
@@ -112,5 +115,9 @@ header {
     font-family: $font-aller-bold;
     text-transform: uppercase;
     cursor: pointer;
+
+    &.router-link-active {
+      color: $color-forest-green;
+    }
   }
 }

@@ -68,7 +68,7 @@ export default {
   links: {
     0: {
       name: "Emplois",
-      link: "/"
+      link: "/emplois"
     },
     1: {
       name: "Blog",
