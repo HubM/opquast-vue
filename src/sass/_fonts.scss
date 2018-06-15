@@ -37,14 +37,19 @@ h2 {
   color: $color-aqua-dark;
 }
 h3 {
-  font-family: $font-roboto;
   font-weight: 900;
   letter-spacing: 2px;
   font-size: 15px;
   text-transform: uppercase;
   color: $color-pirate;
 }
-
+h4 {
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 18px;
+  color: $color-pirate;
+  text-transform: uppercase;
+}
 button,
 a {
   font-family: $font-roboto;
@@ -53,11 +58,9 @@ a {
   letter-spacing: 2px;
   font-size: 15px;
 }
-
 .color-scooter {
   color: $color-scooter;
 }
-
 .color-flamingo {
   color: $color-flamingo;
 }

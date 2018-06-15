@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="contained">
     <router-link to='/'>
     <img src="~assets/logo.svg" alt="Logo Opquast" class="logo">
     </router-link>

@@ -1,6 +1,6 @@
 .home-certification-1 {
   align-items: center;
-
+  margin-top: 100px;
   h1 {
     margin-bottom: 55px;
   }
@@ -11,7 +11,6 @@
 }
 
 .home-certification-2 {
-  margin-top: 120px;
   h3 {
    margin-bottom: 10px; 
   }
@@ -22,12 +21,10 @@
   }
   p{
     margin-left: 50px;
-
     &:first-of-type {
       margin-top: 50px;
       margin-bottom: 30px;
     }
-
     &:last-of-type{
       margin-bottom: 40px;
     }
@@ -37,17 +34,22 @@
   }
 }
 
-.home-evidence {
-  background-color: $color-cloud;
-
-  ul {
+  .home-evidence  {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 100px 0;
+    li {
+      max-width: 280px;
+      &:not(:last-of-type) {
+        margin-right: 135px;
+      }
+    }
+    img {
+      margin-bottom: 45px;
+      max-width: 220px;
+    }
+    p{
+      font-size: 14px;
+    }
   }
-
-  img {
-    margin-bottom: 45px;
-    max-width: 220px;
-  }
-}
