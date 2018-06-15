@@ -1,6 +1,8 @@
 <template>
   <header>
+    <router-link to='/'>
     <img src="~assets/logo.svg" alt="Logo Opquast" class="logo">
+    </router-link>
     <nav>
       <ul class="columns main-items">
         <mainItem v-for="(item,key) in menu.mainItems" :item="item" :key="key" class="column" />
