@@ -88,22 +88,36 @@
         <Link class="btn btn-primary" path="/checklist" message="apprendre" />
       </div>
     </article>
-    <!-- <article class="bck-cloud">
-      <ul class="home-partners contained">
-        
-      </ul>
-    </article>     -->
+    <article class="bck-cloud">
+      <div class="contained home-partners">
+        <h2>Nos partenaires certifiés</h2>
+        <router-link to="/entreprises" class="show-all">voir tous</router-link>
+        <ul class="columns is-vcentered is-spaced">
+          <li v-for="(partner, index) in partners" :key="index" class="column"> 
+            <a :href="partner.link" target="_blank">
+              <img :src="partner.logo_2x" :alt="partner.alternative" :srcset="partner.logo_3x" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </article>    
   </section>
 </template>
 
 <script>
 import Link from '../elements/Link';
+import partners from '../../datas/home-partners';
 
 export default {
   name: 'home',
+  data() {
+    return {
+      partners: partners
+    }
+  },
   components: {
     Link
-  }
+  },
 }
 </script>
 

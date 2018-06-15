@@ -1,3 +1,6 @@
+/************
+COMPONENTS
+**************/
 import Home from './components/layouts/Home';
 import _404 from './components/layouts/_404.vue';
 
@@ -19,7 +22,10 @@ import Emplois from './components/layouts/Emplois.vue'
 import Blog from './components/layouts/Blog.vue'
 
 const routes = [
-  { path: '/', component: Home },
+  { 
+    path: '/', 
+    component: Home,
+  },
 
   // Certifications pages
   { path: '/certification', component: Certification },

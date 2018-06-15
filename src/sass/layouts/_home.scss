@@ -55,3 +55,23 @@
 .home-bonnes-pratiques {
   margin-left: 100px;
 }
+
+.home-partners {
+  padding-top: 40px;
+  .show-all {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    text-transform: uppercase;
+    padding-bottom: 4px;
+    border-bottom: 1.5px solid $color-pirate;
+  }
+  ul{
+    padding-bottom: 40px;
+  }
+  img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+}

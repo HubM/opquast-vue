@@ -7,6 +7,11 @@
   max-width: 1140px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+}
+
+.is-spaced {
+  justify-content: space-between;
 }
 
 .column {
