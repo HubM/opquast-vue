@@ -1,6 +1,6 @@
 <template>
   <section>
-    <article class="columns contained is-vcentered home-certification-1">
+    <article class="columns contained is-vcentered home-explication-1">
       <div class="column">
         <h1>La certification <br>
           des professionnels du web
@@ -10,7 +10,7 @@
       </div>
       <img src="~assets/homepage/illustration_1.svg" alt="Illustration qui représente les bonnes pratiques web">
     </article>
-    <article class="columns contained home-certification-2">
+    <article class="columns contained home-explication-2">
       <img src="~assets/homepage/illustration_2.svg" alt="Illustration abstraite">
       <div class="column is-7 is-offset-3">
         <h3 class="color-flamingo">certification Opquast</h3>
@@ -100,7 +100,23 @@
           </li>
         </ul>
       </div>
-    </article>    
+    </article> 
+    <article class="columns contained home-explication-3">
+      <div class="column is-7 is-offset-2">
+        <h3 class="color-flamingo">Partenariats</h3>
+        <h2>Écoles et entreprises, découvrez nos offres</h2>
+        <p>
+          Faites certifier vos employés et étudiants ! Assurez vous qu’ils maitrisent toutes les 
+          bonnes pratiques de la qualité web avec notre certification en ligne ou nos formations 
+          présentielles.
+        </p>
+        <p>
+          Les avantages de la certification Opquast ? Mieux travailler, mieux communiquer et faire reconnaître ses compétences Web.
+        </p>  
+        <Link class="btn btn-primary" path="/formations" message="devenir partenaire" />
+      </div>
+      <img src="~assets/homepage/illustration_4.svg" alt="Illustration abstraite">
+    </article>  
   </section>
 </template>
 

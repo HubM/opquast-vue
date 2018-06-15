@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="356px" height="484px" viewBox="0 0 356 484" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 20</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage" transform="translate(-1084.000000, -4000.000000)">
+            <g id="Group-20" transform="translate(1084.000000, 4000.000000)">
+                <g id="Group-8" transform="translate(51.500000, 431.500000) rotate(-90.000000) translate(-51.500000, -431.500000) translate(0.000000, 380.000000)" fill="#6ED2E1">
+                    <rect id="Rectangle-25" x="0" y="0" width="26" height="26"></rect>
+                    <rect id="Rectangle-25-Copy" x="0" y="26" width="51" height="26"></rect>
+                    <rect id="Rectangle-25-Copy-2" x="0" y="51" width="77" height="26"></rect>
+                    <rect id="Rectangle-25-Copy-3" x="0" y="77" width="103" height="26"></rect>
+                </g>
+                <circle id="Oval-9" fill="#0A1650" cx="68.5" cy="57.5" r="57.5"></circle>
+                <g id="ILLU-2-Copy" transform="translate(51.000000, 16.000000)">
+                    <rect id="Rectangle-4" fill="#0A1650" x="108" y="0" width="196" height="89"></rect>
+                    <rect id="Rectangle-4-Copy" fill="#6ED2E1" x="108" y="59.5" width="196" height="408"></rect>
+                    <polygon id="Rectangle-24" fill="#AEE9ED" points="0 59.2608419 108.003322 0 215 59.2608419 215 467.5 0 467.5"></polygon>
+                    <rect id="Rectangle-3" fill="#0A1650" transform="translate(82.000000, 396.500000) rotate(-90.000000) translate(-82.000000, -396.500000) " x="11" y="353" width="142" height="87"></rect>
+                </g>
+                <path d="M21,129 L142,129 C140.560864,162.388955 114.024604,189 81.5,189 C48.9753961,189 22.4391355,162.388955 21,129 Z" id="Combined-Shape-Copy" fill="#6ED2E1" transform="translate(81.500000, 159.000000) rotate(-90.000000) translate(-81.500000, -159.000000) "></path>
+                <rect id="Rectangle-31-Copy" fill="#AEE9ED" x="266" y="237" width="90" height="20"></rect>
+                <rect id="Rectangle-31-Copy-3" fill="#AEE9ED" x="266" y="284" width="90" height="20"></rect>
+                <rect id="Rectangle-31-Copy-5" fill="#AEE9ED" x="266" y="190" width="90" height="20"></rect>
+                <polygon id="Rectangle-31" fill="#FFFFFF" points="246 190 266 190 266 210"></polygon>
+                <polygon id="Rectangle-31-Copy-2" fill="#FFFFFF" points="246 237 266 237 266 257"></polygon>
+                <polygon id="Rectangle-31-Copy-4" fill="#FFFFFF" points="246 284 266 284 266 304"></polygon>
+                <circle id="Oval-8-Copy-73" fill="#FFFFFF" cx="109.5" cy="271.5" r="7.5"></circle>
+                <circle id="Oval-8-Copy-74" fill="#FFFFFF" cx="109.5" cy="316.5" r="7.5"></circle>
+                <circle id="Oval-8-Copy-76" fill="#6ED2E1" cx="109.5" cy="361.5" r="7.5"></circle>
+                <circle id="Oval-8-Copy-77" fill="#AEE9ED" cx="19.5" cy="271.5" r="7.5"></circle>
+                <circle id="Oval-8-Copy-78" fill="#AEE9ED" cx="19.5" cy="316.5" r="7.5"></circle>
+                <circle id="Oval-8-Copy-80" fill="#AEE9ED" cx="19.5" cy="361.5" r="7.5"></circle>
+                <circle id="Oval-8-Copy-81" fill="#FFFFFF" cx="64.5" cy="271.5" r="7.5"></circle>
+                <circle id="Oval-8-Copy-82" fill="#FFFFFF" cx="64.5" cy="316.5" r="7.5"></circle>
+                <circle id="Oval-8-Copy-84" fill="#FFFFFF" cx="64.5" cy="361.5" r="7.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
