@@ -1,6 +1,6 @@
 <template>
   <section>
-    <article class="columns contained home-certification-1">
+    <article class="columns contained is-vcentered home-certification-1">
       <div class="column">
         <h1>La certification <br>
           des professionnels du web
@@ -59,10 +59,18 @@
         </li>
       </ul>
     </article>
-    <article class="columns contained">
+    <article class="columns contained is-vcentered">
       <div class="column">
         <h3 class="color-scooter">Qualité web</h3>
+        <h2>Testez vos compétences !</h2>
+        <h4 class="color-gray-chateau">Mini-test: 10 questions pour s'auto-évaluer</h4>
+        <p>
+          Vous n’êtes pas surs d’avoir les compétences nécessaires pour 
+          passer notre certification ? Testez-vous avec ce mini test de 10 questions.
+        </p>
+        <Link class="btn btn-primary" path="/" message="s'auto-évaluer" />
       </div>
+      <img src="~assets/homepage/tmp-interface.svg" alt="Image qui représente l'interface de Opquast" class="column">
     </article>
   </section>
 </template>

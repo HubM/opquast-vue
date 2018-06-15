@@ -1,5 +1,4 @@
 .home-certification-1 {
-  align-items: center;
   margin-top: 100px;
   h1 {
     margin-bottom: 55px;
@@ -19,14 +18,10 @@
     left: 0;
     transform: translateY(-120px);
   }
-  p{
+  p {
     margin-left: 50px;
     &:first-of-type {
-      margin-top: 50px;
       margin-bottom: 30px;
-    }
-    &:last-of-type{
-      margin-bottom: 40px;
     }
   }
   a {
@@ -34,22 +29,27 @@
   }
 }
 
-  .home-evidence  {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 100px 0;
-    li {
-      max-width: 280px;
-      &:not(:last-of-type) {
-        margin-right: 135px;
-      }
-    }
-    img {
-      margin-bottom: 45px;
-      max-width: 220px;
-    }
-    p{
-      font-size: 14px;
+.home-evidence  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0;
+  li {
+    max-width: 280px;
+    &:not(:last-of-type) {
+      margin-right: 135px;
     }
   }
+  img {
+    margin-bottom: 45px;
+    max-width: 220px;
+  }
+  p{
+    font-size: 14px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+}
+
+

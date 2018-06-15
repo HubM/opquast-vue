@@ -34,6 +34,7 @@ h1 {
 h2 {
   font-family: $font-aller-regular;
   font-size: 35px;
+  margin-bottom: 60px;
   color: $color-aqua-dark;
 }
 h3 {
@@ -46,7 +47,7 @@ h3 {
 h4 {
   font-weight: 900;
   letter-spacing: 2px;
-  font-size: 18px;
+  font-size: 15px;
   color: $color-pirate;
   text-transform: uppercase;
 }
@@ -63,4 +64,7 @@ a {
 }
 .color-flamingo {
   color: $color-flamingo;
+}
+.color-gray-chateau {
+  color: $color-gray-chateau;
 }
