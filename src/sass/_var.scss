@@ -17,6 +17,7 @@ $color-sunny: #fece5c;
 $color-sunny-dark: #e6a50c;
 $color-sunny-light: #fee59b;
 $color-aqua: #6ed2e1;
+$color-scooter: #27C1D8;
 $color-aqua-dark: #0a1650;
 $color-aqua-light: #aee9ed;
 $color-princess: #ff7183;
@@ -31,9 +32,9 @@ $color-menu-lighten-skunk: #f7fff5;
 /* Fonts */
 $alternatives-fonts: "Helvetica Neue", Helvetica, sans-serif;
 
-$font-aller-regular: 'aller_lightregular', alternatives-fonts;
-$font-aller-bold: 'allerbold', alternatives-fonts;
-$font-roboto: 'Roboto', alternatives-fonts;
+$font-aller-regular: 'aller_lightregular', $alternatives-fonts;
+$font-aller-bold: 'allerbold', $alternatives-fonts;
+$font-roboto: 'Roboto', $alternatives-fonts;
 
 
 /* Transitions speed */
