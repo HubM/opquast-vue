@@ -72,6 +72,27 @@
       </div>
       <img src="~assets/homepage/tmp-interface.svg" alt="Image qui représente l'interface de Opquast" class="column">
     </article>
+    <article class="columns contained is-vcentered">
+      <img src="~assets/homepage/illustration_3.svg" alt="Image qui représente l'interface de Opquast" class="column">
+      <div class="column home-bonnes-pratiques">
+        <h3 class="color-princess-dark">Vérifier et découvrir</h3>
+        <h2>Bonnes pratiques</h2>
+        <p>
+          Opquast a recensé pour vous une liste de bonnes pratiques applicables sur le web. 
+          Vous trouverez une check-list, allant du prototype, au design, à l'intégration, 
+          au développement, jusqu'à la rédaction. Toutes ces bonnes pratiques rentrent dans une 
+          logique de qualité web et ont pour objectif d'optimiser l'expérience de l'internaute. 
+          Suivez le guide des bonnes pratiques et servez vous en pour obtenir la certification 
+          Opquast
+        </p>
+        <Link class="btn btn-primary" path="/checklist" message="apprendre" />
+      </div>
+    </article>
+    <!-- <article class="bck-cloud">
+      <ul class="home-partners contained">
+        
+      </ul>
+    </article>     -->
   </section>
 </template>
 
