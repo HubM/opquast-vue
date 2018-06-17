@@ -1,5 +1,6 @@
 .btn {
   display: inline-block;
+  min-width: 180px;
   text-transform: uppercase;
   font-weight: 900;
   border-width: 1px;
@@ -8,6 +9,13 @@
   margin-top: 40px;
   padding: 10px 15px 10px 20px;
   transition: all $fast-animation ease-in-out;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  
+  @include breakpoint(tablet) {
+    margin-left: auto;
+    transform: translateX(0);
+  }
 
   svg {
     width: 25px;

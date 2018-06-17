@@ -1,7 +1,7 @@
 <template>
   <div>
     <section>
-      <article class="columns contained is-vcentered home-explication-1">
+      <article class="columns is-tablet contained is-vcentered home-explication-1">
         <div class="column">
           <h1>La certification <br>
             des professionnels du web
@@ -9,11 +9,14 @@
           <p>Démontrez votre crédibilité et vos compétences. Obtenez votre certification reconnue par l'État : Maîtrise de la qualité en projet web.</p>
           <Link class="btn btn-primary" path="/" message="démarrer" />
         </div>
-        <img src="~assets/homepage/illustration_1.svg" alt="Illustration qui représente les bonnes pratiques web">
+        <img src="~assets/homepage/illustration_1.svg" 
+             alt="Illustration qui représente les bonnes pratiques web"
+             class="column"
+        >
       </article>
       <article class="columns contained home-explication-2">
-        <img src="~assets/homepage/illustration_2.svg" alt="Illustration abstraite">
-        <div class="column is-7 is-offset-3">
+        <img src="~assets/homepage/illustration_2.svg" alt="Illustration abstraite" class="is-hidden-mobile">
+        <div class="column is-7-tablet is-offset-5 is-offset-3-widescreen">
           <h3 class="color-flamingo">certification Opquast</h3>
           <h2>Maîtrise de la qualité en projet web </h2>
           <p>
@@ -73,7 +76,7 @@
         </div>
         <img src="~assets/homepage/plateforme-illu.jpg" 
             srcset="~assets/homepage/plateforme-illu@2x.jpg 2x, ~assets/homepage/plateforme-illu@3x.jpg 3x"
-            alt="Image qui représente l'interface de Opquast" class="column" style="width: 100%;">
+            alt="Image qui représente l'interface de Opquast" class="column is-hidden-touch" style="width: 100%;">
       </article>
       <article class="columns contained is-vcentered">
         <img src="~assets/homepage/illustration_3.svg" alt="Image qui représente l'interface de Opquast" class="column">

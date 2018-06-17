@@ -1,14 +1,14 @@
 <template>
   <header class="contained">
     <router-link to='/'>
-    <img src="~assets/logo.svg" alt="Logo Opquast" class="logo">
+      <img src="~assets/logo.svg" alt="Logo Opquast" class="logo">
     </router-link>
-    <nav>
+    <nav class="is-hidden-touch">
       <ul class="columns main-items">
         <mainItem v-for="(item,key) in menu.mainItems" :item="item" :key="key" class="column" />
       </ul>
     </nav>
-    <ul class="columns main-links">
+    <ul class="columns main-links is-hidden-touch">
       <router-link tag='li' :to='item.link' class="column" v-for="(item, key) in menu.links" :key="key">
         {{ item.name }}
       </router-link>

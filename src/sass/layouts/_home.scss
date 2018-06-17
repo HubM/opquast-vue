@@ -4,8 +4,28 @@
     margin-bottom: 55px;
   }
   p {
-    margin-bottom: 40px;
     max-width: 450px;
+    @include breakpoint(tablet) {
+      margin-bottom: 40px;
+    }
+  }
+  img {
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+    @include breakpoint(tablet) {
+      max-width: 420px;
+    }
+    @include breakpoint(desktop) {
+      max-width: 520px;
+      display: inline-block;
+    }
+  }
+  .btn {
+      margin-bottom: 50px;
+      @include breakpoint(tablet) {
+        margin-bottom: 0;
+      }
   }
 }
 
@@ -16,16 +36,30 @@
   img {
     position: absolute;
     left: 0;
-    transform: translateY(-120px);
+    transform: translateY(0);
+    max-width: 300px;
+
+    @include breakpoint(desktop) {
+      max-width: 100%;
+      transform: translateY(-120px);
+    }
   }
   p {
-    margin-left: 50px;
     &:first-of-type {
       margin-bottom: 30px;
     }
+    @include breakpoint(tablet) {
+      margin-left: 50px;
+    }
   }
   a {
-    margin-left: 50px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+
+    @include breakpoint(tablet) {
+      margin-left: 50px;
+      transform: translateX(0);
+    }
   }
 }
 
