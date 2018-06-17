@@ -23,16 +23,19 @@ export default {
   },
   socials: {
     0: {
-      logo: '',
-      link: ''
+      logo: 'src/assets/footer/linkedin-icn.svg',
+      alternative:'Retrouvez Opquast sur le réseau social LinkedIn',
+      link: 'https://www.linkedin.com/company/opquast/'
     },
     1: {
-      logo: '',
-      link: ''
+      logo: 'src/assets/footer/facebook-icn.svg',
+      alternative: 'Retrouvez Opquast sur le réseau social Facebook',
+      link: 'https://www.facebook.com/opquast/'
     },
     2: {
-      logo: '',
-      link: ''
+      logo: 'src/assets/footer/twitter-icn.svg',
+      alternative: 'Retrouvez Opquast sur le réseau social Twitter',
+      link: 'https://twitter.com/opquast'
     },
   }
 }

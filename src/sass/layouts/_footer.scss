@@ -9,14 +9,12 @@ footer {
 .footer {
   background-color: transparent;
   h4{ 
-    color: #fff
+    color: #fff;
+    margin-bottom: 15px;
   }
 }
 
 .footer-links {
-  h4 {
-    color: #fff;
-  }
   li {
     cursor: pointer;
     display: block;
@@ -24,11 +22,69 @@ footer {
   }
 }
 
+.newsletter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 420px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  margin-bottom: 45px;
+  overflow: hidden;
+
+
+  input[type="text"] {
+    background: none;
+    border:none;
+    font-size: 16px;
+    padding: 15px 100px 15px 20px;
+
+    &::placeholder {
+      color: #fff;
+    }
+  }
+
+  button[type="submit"] {
+    font-size: 15px;
+    color: $color-aqua-dark;
+    text-transform: uppercase;
+    background: #fff;
+    padding: 15px 20px;
+    border: none;
+  }
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  
+  li {
+    &:not(:last-of-type) {
+      margin-right: 10px;
+    }
+  }
+}
+
+address {
+  color: #fff;
+}
+
+p[itemprop="telephone"],
+p[itemprop="telephone"] > a {
+  color: #fff;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+
 .subfooter {
   background-color: #162158;
   div {
     display: flex;
     align-items: center;
     color: #fff;
+    padding: 10px 0;
+    font-size: 13px;
   }
 } 
+

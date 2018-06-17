@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div class="columns contained footer">
-      <nav class="column footer-links">
+      <nav class="column is-2 footer-links">
           <h4>liens</h4>
           <ul>
             <router-link tag="li" :to="item.path" v-for="(item,key) in menu.links" :key="key">
@@ -9,7 +9,7 @@
             </router-link>
           </ul>
       </nav>
-      <div class="column">
+      <div class="column is-offset-1 is-6">
         <h4>Newsletter</h4>
         <form class="newsletter">
           <input type="text" placeholder="Votre email" />
@@ -17,12 +17,14 @@
         </form>
         <h4>Réseaux sociaux</h4>
         <ul class="socials">
-          <li><a href=""><img src="" alt=""></a></li>
-          <li><a href=""><img src="" alt=""></a></li>
-          <li><a href=""><img src="" alt=""></a></li>
+          <li v-for="(social, key) in menu.socials" :key="key">
+            <a :href="social.link" target="_blank">
+              <img :src="social.logo" :alt="social.alternative">
+            </a>
+          </li>
         </ul>
       </div>
-      <div class="column">
+      <div class="column is-offset-1 is-3">
         <h4>Opquast</h4>
         <address>
           18, rue Lucien Granet 
