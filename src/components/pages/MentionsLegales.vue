@@ -1,15 +1,14 @@
 <template>
-   <h1>404 not found</h1>
+   <h1>Mentions légales page</h1>
 </template>
 
 <script>
 
 export default {
-  name: 'NotFound',
+  name: 'Mentions légales',
 }
 </script>
 
 <style lang="scss">
   @import '~styles';
 </style>
-

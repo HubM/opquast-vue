@@ -1,0 +1,14 @@
+<template>
+   <h1>Contact page</h1>
+</template>
+
+<script>
+
+export default {
+  name: 'Contact',
+}
+</script>
+
+<style lang="scss">
+  @import '~styles';
+</style>

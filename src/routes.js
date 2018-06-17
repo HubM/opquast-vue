@@ -1,25 +1,22 @@
 /************
 COMPONENTS
 **************/
-import Home from './components/layouts/Home';
-import _404 from './components/layouts/_404.vue';
-
-// to do
-import Certification from './components/layouts/Certification.vue'
-import Formations from './components/layouts/Formations.vue'
-import Faq from './components/layouts/Faq.vue'
-
-// to do
-import Ecoles from './components/layouts/Ecoles.vue'
-import Entreprises from './components/layouts/Entreprises.vue'
-
-// to do
-import Checklist from './components/layouts/Checklist.vue'
-import Glossaire from './components/layouts/Glossaire.vue'
-
-// to do
-import Emplois from './components/layouts/Emplois.vue'
-import Blog from './components/layouts/Blog.vue'
+import Home from './components/pages/Home';
+import _404 from './components/pages/_404.vue';
+import Certification from './components/pages/Certification.vue'
+import Formations from './components/pages/Formations.vue'
+import Faq from './components/pages/Faq.vue'
+import Ecoles from './components/pages/Ecoles.vue'
+import Entreprises from './components/pages/Entreprises.vue'
+import Checklist from './components/pages/Checklist.vue'
+import Glossaire from './components/pages/Glossaire.vue'
+import Emplois from './components/pages/Emplois.vue'
+import Blog from './components/pages/Blog.vue'
+import About from './components/pages/About.vue'
+import Contact from './components/pages/Contact.vue'
+import Partenaires from './components/pages/Partenaires.vue'
+import MentionsLegales from './components/pages/MentionsLegales.vue'
+import Presse from './components/pages/Presse.vue'
 
 const routes = [
   { 
@@ -43,6 +40,13 @@ const routes = [
   // main links pages
   { path: '/emplois', component: Emplois },
   { path: '/blog', component: Blog },  
+
+  // footer links
+  { path: '/a-propos', component: About },
+  { path: '/contact', component: Contact },
+  { path: '/partenaires', component: Partenaires },
+  { path: '/mentions-legales', component: MentionsLegales },
+  { path: '/presse', component: Presse },
 
 
   { path: '*', component: _404 },

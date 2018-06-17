@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import menu from "../../datas/menu.js";
+import menu from "../../datas/main-menu.js";
 import mainItem from "./MainItem";
 
 export default {
