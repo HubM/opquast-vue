@@ -8,19 +8,19 @@ export default {
         0: {
           name: "Certification Opquast",
           description: "La certification des professionnels du web",
-          icon: "src/assets/menu/certification-certif.svg",
+          icon:`<span class="icon-certificate"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>`,
           link: "/certification",
         },
         1: {
           name: "Formations",
           description: "Les différentes formations",
-          icon: "src/assets/menu/certification-formations.svg",
+          icon: `<span class="icon-school"><span class="path1"></span><span class="path2"></span></span>`,
           link: "/formations",
         },        
         2: {
           name: "Faq",
           description: "Les réponses à vos questions !",
-          icon: "src/assets/menu/certification-faq.svg",
+          icon: `<span class="icon-question"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>`,
           link: "/faq",
         },
 
@@ -34,13 +34,13 @@ export default {
         0: {
           name: "Écoles",
           description: "La certification des professionnels du web",
-          icon: "src/assets/menu/formation-ecole.svg",
+          icon: `<span class="icon-backpack"><span class="path1"></span><span class="path2"></span></span>`,
           link: "/ecoles",
         },
         1: {
           name: "Entreprises",
           description: "Les réponses à vos questions !",
-          icon: "src/assets/menu/formation-entreprise.svg",
+          icon: `<span class="icon-work"><span class="path1"></span><span class="path2"></span></span>`,
           link: "/entreprises",
         },
       }    
@@ -53,13 +53,13 @@ export default {
         0: {
           name: "Checklist",
           description: "Les bonnes pratiques à valider",
-          icon: "src/assets/menu/bonnes-pratiques-check.svg",
+          icon: `<span class="icon-check"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>`,
           link: "/checklist",
         }, 
         1: {
           name: "Glossaire",
           description: "Tout le vocabulaire pour être pro",
-          icon: "src/assets/menu/bonnes-pratiques-glossaire.svg",
+          icon: `<span class="icon-book"><span class="path1"></span><span class="path2"></span></span>`,
           link: "/glossaire",
         },      
       }

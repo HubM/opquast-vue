@@ -44,7 +44,7 @@
 .icon-backpack .path2:before {
   content: "\e901";
   margin-left: -0.947265625em;
-  color: rgb(152, 159, 169);
+  color: $color-scooter;
 }
 .icon-book .path1:before {
   content: "\e902";
@@ -53,7 +53,7 @@
 .icon-book .path2:before {
   content: "\e903";
   margin-left: -0.76171875em;
-  color: rgb(152, 159, 169);
+  color: $color-princess-dark;
 }
 .icon-certificate .path1:before {
   content: "\e904";
@@ -62,12 +62,12 @@
 .icon-certificate .path2:before {
   content: "\e905";
   margin-left: -0.76171875em;
-  color: rgb(152, 159, 169);
+  color: $color-forest-green;
 }
 .icon-certificate .path3:before {
   content: "\e906";
   margin-left: -0.76171875em;
-  color: rgb(152, 159, 169);
+  color: $color-forest-green;
 }
 .icon-check .path1:before {
   content: "\e907";
@@ -76,12 +76,12 @@
 .icon-check .path2:before {
   content: "\e908";
   margin-left: -1em;
-  color: rgb(152, 159, 169);
+  color: $color-princess-dark;
 }
 .icon-check .path3:before {
   content: "\e909";
   margin-left: -1em;
-  color: rgb(152, 159, 169);
+  color: $color-princess-dark;
 }
 .icon-data:before {
   content: "\e90a";
@@ -215,12 +215,12 @@
 .icon-question .path2:before {
   content: "\e926";
   margin-left: -1em;
-  color: rgb(152, 159, 169);
+  color: $color-forest-green;
 }
 .icon-question .path3:before {
   content: "\e927";
   margin-left: -1em;
-  color: rgb(152, 159, 169);
+  color: $color-forest-green;
 }
 .icon-repair .path1:before {
   content: "\e928";
@@ -238,7 +238,7 @@
 .icon-school .path2:before {
   content: "\e92b";
   margin-left: -1.22265625em;
-  color: rgb(152, 159, 169);
+  color: $color-forest-green;
 }
 .icon-select:before {
   content: "\e92c";
@@ -323,7 +323,7 @@
 .icon-work .path2:before {
   content: "\e93d";
   margin-left: -1.052734375em;
-  color: rgb(152, 159, 169);
+  color: $color-scooter;
 }
 
 
