@@ -32,7 +32,12 @@
         </div>
       </article>
       <article class="bck-cloud">
-        <slick ref="slick" :options="slickOptions" class="home-evidence contained">
+        <slick 
+          ref="slick" 
+          :options="slickOptionsEvidence" 
+          class="home-evidence contained" 
+          :is="isReadyForSliderEvidence ? 'slick' : 'ul'"
+        >
           <li>
             <img src="~assets/homepage/icn-certif.svg" alt="Illustration qui représente les certifiés Opquast">
             <h4>3514 certifiés</h4>
@@ -98,13 +103,13 @@
         <div class="contained home-partners">
           <h2>Nos partenaires certifiés</h2>
           <router-link to="/entreprises" class="show-all">voir tous</router-link>
-          <ul class="columns is-vcentered is-spaced">
+          <slick ref="slick" :options="isReadyForSliderPartners ? slickOptionsPartners : ''" :is="isReadyForSliderPartners ? 'slick' : 'ul'" class="columns is-vcentered is-spaced">
             <li v-for="(partner, index) in partners" :key="index" class="column"> 
               <a :href="partner.link" target="_blank">
                 <img :src="partner.logo_2x" :alt="partner.alternative" :srcset="partner.logo_3x" />
               </a>
             </li>
-          </ul>
+          </slick>
         </div>
       </article> 
       <article class="columns contained home-explication-3">
@@ -140,15 +145,14 @@ export default {
   data() {
     return {
       partners: partners,
-      slickOptions: {
+      isReadyForSliderPartners: window.innerWidth <= 768 ? true : false,
+      isReadyForSliderEvidence: window.innerWidth <= 1024 ? true : false,
+      slickOptionsEvidence: {
         mobileFirst: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        // infinite: true,
         arrows: false,
-        // autoplay: true,
         dots: true,
-        // centerMode: false,
         initialSlide: 0,
         easing: 'ease-in-out',
         responsive: [
@@ -164,13 +168,36 @@ export default {
             settings: "unslick"
           },
         ]
-      }
+      },
+      slickOptionsPartners: {
+        mobileFirst: true,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        arrows: false,
+        dots: true,
+        initialSlide: 0,
+        easing: 'ease-in-out',
+        responsive: [
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              initialSlide: 0
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: "unslick"
+          },
+        ]
+      },      
     }
   },
   components: {
     Link,
     Footer,
-    Slick
+    Slick,
   },
 }
 </script>
