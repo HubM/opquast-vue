@@ -32,7 +32,7 @@
         </div>
       </article>
       <article class="bck-cloud">
-        <ul class="home-evidence contained">
+        <slick ref="slick" :options="slickOptions" class="home-evidence contained">
           <li>
             <img src="~assets/homepage/icn-certif.svg" alt="Illustration qui représente les certifiés Opquast">
             <h4>3514 certifiés</h4>
@@ -61,7 +61,7 @@
               Vous pouvez vous inscrire directement en ligne, et avoir accès à la plateforme pendant trois mois.
             </p>
           </li>
-        </ul>
+        </slick>
       </article>
       <article class="columns contained is-vcentered">
         <div class="column">
@@ -72,15 +72,15 @@
             Vous n’êtes pas surs d’avoir les compétences nécessaires pour 
             passer notre certification ? Testez-vous avec ce mini test de 10 questions.
           </p>
-          <Link class="btn btn-primary" path="/" message="s'auto-évaluer" />
+          <Link class="btn btn-primary btn-extended" path="/" message="s'auto-évaluer" />
         </div>
         <img src="~assets/homepage/plateforme-illu.jpg" 
             srcset="~assets/homepage/plateforme-illu@2x.jpg 2x, ~assets/homepage/plateforme-illu@3x.jpg 3x"
             alt="Image qui représente l'interface de Opquast" class="column is-hidden-touch" style="width: 100%;">
       </article>
-      <article class="columns contained is-vcentered">
+      <article class="columns contained is-vcentered home-bonnes-pratiques">
         <img src="~assets/homepage/illustration_3.svg" alt="Image qui représente l'interface de Opquast" class="column">
-        <div class="column home-bonnes-pratiques">
+        <div class="column">
           <h3 class="color-princess-dark">Vérifier et découvrir</h3>
           <h2>Bonnes pratiques</h2>
           <p>
@@ -121,7 +121,7 @@
           </p>  
           <Link class="btn btn-primary" path="/formations" message="devenir partenaire" />
         </div>
-        <img src="~assets/homepage/illustration_4.svg" alt="Illustration abstraite">
+        <img src="~assets/homepage/illustration_4.svg" alt="Illustration abstraite" class="is-hidden-mobile">
       </article>  
     </section>
     <Footer />
@@ -132,17 +132,45 @@
 import Link from '../elements/Link';
 import Footer from '../footer/Footer';
 import partners from '../../datas/home-partners';
+import Slick from 'vue-slick';
+
 
 export default {
   name: 'home',
   data() {
     return {
-      partners: partners
+      partners: partners,
+      slickOptions: {
+        mobileFirst: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        // infinite: true,
+        arrows: false,
+        // autoplay: true,
+        dots: true,
+        // centerMode: false,
+        initialSlide: 0,
+        easing: 'ease-in-out',
+        responsive: [
+          {
+            breakpoint: 640,
+            settings: {
+              slidesToShow: 2,
+              initialSlide: 0
+            }
+          },
+          {
+            breakpoint: 1024,
+            settings: "unslick"
+          },
+        ]
+      }
     }
   },
   components: {
     Link,
-    Footer
+    Footer,
+    Slick
   },
 }
 </script>

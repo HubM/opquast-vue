@@ -37,10 +37,15 @@ h1 {
 }
 h2 {
   font-family: $font-aller-regular;
-  font-size: 35px;
-  margin-bottom: 60px;
+  font-size: 30px;
+  margin-bottom: 25px;
   color: $color-aqua-dark;
   line-height: initial;
+
+  @include breakpoint(tablet) {
+    font-size: 35px;
+    margin-bottom: 60px;
+  }
 }
 h3 {
   font-weight: 900;

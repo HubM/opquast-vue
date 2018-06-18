@@ -1,4 +1,4 @@
-@mixin breakpoint($point) {
+@mixin breakpoint($point, $break: 0) {
   @if $point == tablet {
     @media screen and (min-width: 768px) { @content; }
   }
@@ -10,6 +10,9 @@
   }
   @else if $point == fullhd {
     @media screen and (max-width: 1408px) { @content; }
+  }
+  @else if $point == other {
+    @media screen and (min-width: $break) { @content; }
   }
 }
 
@@ -45,9 +48,7 @@ hr {
 
 article,
 article.columns {
-  margin-top: 100px;
-  margin-bottom: 50px;
-
+  margin-top: 50px;
   @include breakpoint(tablet) {
     margin-top: 120px;
     margin-bottom: 80px;
@@ -62,3 +63,39 @@ article.columns {
   background-color: $color-cloud;
 }
 
+@media screen and (max-width: 640px) {
+  .slick-slide li {
+    display: block !important;
+    margin: 0 auto;
+  }
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+  li {
+    text-indent: -9999px;
+    background: transparent;
+    border: 1px solid $color-shuttle-gray;
+    background: $color-shuttle-gray;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    &:not(:last-of-type) {
+      margin-right: 40px !important;
+    }
+
+    &.slick-active {
+      padding: 6px;
+    }
+  }
+}
+
+ul {
+  list-style-type: none;
+}
