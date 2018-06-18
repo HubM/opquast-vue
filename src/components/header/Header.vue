@@ -4,7 +4,9 @@
       <img src="~assets/logo.svg" alt="Logo Opquast">
     </router-link>
 
-    <img src="~assets/menu/burger.svg" alt="Icône menu burger" class="is-hidden-tablet burger">
+    <div class="is-hidden-tablet burger">
+      <span class="icon-menu-burger" ></span>
+    </div>
 
     <nav class="is-hidden-mobile">
       <ul class="main-items">
