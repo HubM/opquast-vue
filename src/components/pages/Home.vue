@@ -17,7 +17,7 @@
       <article class="columns contained home-explication-2">
         <img src="~assets/homepage/illustration_2.svg" alt="Illustration abstraite" class="is-hidden-mobile">
         <div class="column is-7-tablet is-offset-5 is-offset-3-widescreen">
-          <h3 class="color-flamingo">certification Opquast</h3>
+          <p class="color-flamingo pre-title">certification Opquast</p>
           <h2>Maîtrise de la qualité en projet web </h2>
           <p>
             Cette certification concerne l’ensemble des professionnels amenées à concevoir, 
@@ -40,7 +40,7 @@
         >
           <li>
             <img src="~assets/homepage/icn-certif.svg" alt="Illustration qui représente les certifiés Opquast">
-            <h4>3514 certifiés</h4>
+            <h3>3514 certifiés</h3>
             <hr>
             <p>
               Aujourd'hui, Opquast compte plus de 3 514 certifiés. Professionnels ou particuliers, 
@@ -50,7 +50,7 @@
           </li>
           <li>
             <img src="~assets/homepage/icn-reconnu.svg" alt="Illustration qui représente que l'INCP reconnait la certification">
-            <h4>Reconnue INCP</h4>
+            <h3>Reconnue INCP</h3>
             <hr>
             <p>
               La certification Opquast est reconnue à la Commission Nationale de la Certification Professionnelle. 
@@ -59,7 +59,7 @@
           </li>
           <li>
             <img src="~assets/homepage/icn-formations.svg" alt="Illustration qui représente l'accompagnement dans les certifications Opquast">
-            <h4>Accompagnement</h4>
+            <h3>Accompagnement</h3>
             <hr>
             <p>
               Préparez vous à la certification en suivant nos formations. 
@@ -70,7 +70,7 @@
       </article>
       <article class="columns contained is-vcentered">
         <div class="column">
-          <h3 class="color-scooter">Qualité web</h3>
+          <p class="color-scooter pre-title">Qualité web</p>
           <h2>Testez vos compétences !</h2>
           <h4 class="color-gray-chateau">Mini-test: 10 questions pour s'auto-évaluer</h4>
           <p>
@@ -79,14 +79,14 @@
           </p>
           <Link class="btn btn-primary btn-extended" path="/" message="s'auto-évaluer" />
         </div>
-        <img src="~assets/homepage/plateforme-illu.jpg" 
-            srcset="~assets/homepage/plateforme-illu@2x.jpg 2x, ~assets/homepage/plateforme-illu@3x.jpg 3x"
+        <img src="~assets/homepage/plateforme-illu@2x.jpg" 
+            srcset="~assets/homepage/plateforme-illu@3x.jpg 3x"
             alt="Image qui représente l'interface de Opquast" class="column is-hidden-touch" style="width: 100%;">
       </article>
       <article class="columns contained is-vcentered home-bonnes-pratiques">
         <img src="~assets/homepage/illustration_3.svg" alt="Image qui représente l'interface de Opquast" class="column">
         <div class="column">
-          <h3 class="color-princess-dark">Vérifier et découvrir</h3>
+          <p class="color-princess-dark pre-title">Vérifier et découvrir</p>
           <h2>Bonnes pratiques</h2>
           <p>
             Opquast a recensé pour vous une liste de bonnes pratiques applicables sur le web. 
@@ -114,7 +114,7 @@
       </article> 
       <article class="columns contained home-explication-3">
         <div class="column is-7 is-offset-2">
-          <h3 class="color-flamingo">Partenariats</h3>
+          <p class="color-flamingo pre-title">Partenariats</p>
           <h2>Écoles et entreprises, découvrez nos offres</h2>
           <p>
             Faites certifier vos employés et étudiants ! Assurez vous qu’ils maitrisent toutes les 

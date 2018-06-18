@@ -47,14 +47,18 @@ h2 {
     margin-bottom: 60px;
   }
 }
-h3 {
+.pre-title{
   font-weight: 900;
   letter-spacing: 2px;
   font-size: 15px;
   text-transform: uppercase;
   color: $color-pirate;
+  margin-left: 0 !important;
+  margin-bottom: 0 !important;
 }
-h4 {
+
+
+h3 {
   font-weight: 900;
   letter-spacing: 2px;
   font-size: 15px;
