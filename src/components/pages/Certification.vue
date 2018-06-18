@@ -1,11 +1,15 @@
 <template>
-   <h1>Certification page</h1>
+   <NotInPrototype />
 </template>
 
 <script>
+import NotInPrototype from '../elements/NotInPrototype';
 
 export default {
   name: 'Certification',
+  components: {
+    NotInPrototype
+  }
 }
 </script>
 
