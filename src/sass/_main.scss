@@ -1,21 +1,3 @@
-@mixin breakpoint($point, $break: 0) {
-  @if $point == tablet {
-    @media screen and (min-width: 768px) { @content; }
-  }
-  @else if $point == desktop {
-    @media screen and (min-width: 1024px) { @content; }
-  }
-  @else if $point == widescreen {
-    @media screen and (min-width: 1216px) { @content; }
-  }
-  @else if $point == fullhd {
-    @media screen and (max-width: 1408px) { @content; }
-  }
-  @else if $point == other {
-    @media screen and (min-width: $break) { @content; }
-  }
-}
-
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -98,4 +80,72 @@ article.columns {
 
 ul {
   list-style-type: none;
+}
+
+body {
+  font-family: $font-roboto;
+  font-size: 15px;
+  color: #000;
+  font-weight: 300;
+  line-height: 28px;
+}
+h1 {
+  font-family: $font-aller-bold;
+  font-size: 35px;
+  line-height: initial;
+  color: $color-aqua-dark;
+  
+  @include breakpoint(tablet) {
+    font-size: 40px;
+  }
+}
+h2 {
+  font-family: $font-aller-regular;
+  font-size: 30px;
+  margin-bottom: 25px;
+  color: $color-aqua-dark;
+  line-height: initial;
+
+  @include breakpoint(tablet) {
+    font-size: 35px;
+    margin-bottom: 60px;
+  }
+}
+.pre-title{
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: $color-pirate;
+  margin-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+
+h3 {
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 15px;
+  color: $color-pirate;
+  text-transform: uppercase;
+}
+button,
+a {
+  font-family: $font-roboto;
+  font-weight: 900;
+  color: $color-pirate;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+.color-scooter {
+  color: $color-scooter;
+}
+.color-flamingo {
+  color: $color-flamingo;
+}
+.color-gray-chateau {
+  color: $color-gray-chateau;
+}
+.color-princess-dark {
+  color: $color-princess-dark;
 }

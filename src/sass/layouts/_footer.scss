@@ -64,6 +64,16 @@ footer {
       margin-right: 10px;
     }
   }
+
+  span {
+    &:before {
+      color: #fff;
+
+      &:hover {
+        color: darken(#fff, 10%);
+      }
+    }
+  }
 }
 
 address {

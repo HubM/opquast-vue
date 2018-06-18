@@ -17,22 +17,17 @@
     transform: translateX(0);
   }
 
-  svg {
-    width: 25px;
-    height: auto;
-
-    .arrow {
-      display: block;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      transition: transform $fast-animation ease-in-out;
+  .icon-arrow--right {
+    font-size: 10px;
+    transition: margin-left $fast-animation ease-in-out;
+    &::before {
+      color: $color-aqua-dark;
     }
   }
 
   &:hover {
-    .arrow {
-      transform: translateX(5px);
+    .icon-arrow--right{
+      margin-left: 5px;
     }
   }
 }
@@ -41,19 +36,6 @@
   background-color: #fff;
   color: $color-aqua-dark;
   border-color: $color-aqua-dark;
-    
-  .arrow {
-    fill: $color-aqua-dark;
-  }
-
-  &:hover {
-    border-color: lighten($color-aqua-dark, 5%);
-    color: lighten($color-aqua-dark, 5%);
-
-    .arrow {
-      fill: lighten($color-aqua-dark, 5%);
-    }
-  }
 }
 
 

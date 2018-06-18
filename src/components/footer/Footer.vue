@@ -19,7 +19,7 @@
         <ul class="socials">
           <li v-for="(social, key) in menu.socials" :key="key">
             <a :href="social.link" target="_blank">
-              <img :src="social.logo" :alt="social.alternative">
+              <span :class="social.logo"></span>
             </a>
           </li>
         </ul>
