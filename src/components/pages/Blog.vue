@@ -1,11 +1,15 @@
 <template>
-   <h1>Blog page</h1>
+  <NotInPrototype />
 </template>
 
 <script>
+import NotInPrototype from '../elements/NotInPrototype';
 
 export default {
   name: 'Blog',
+  components: {
+    NotInPrototype
+  }
 }
 </script>
 

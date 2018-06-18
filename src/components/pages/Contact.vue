@@ -1,10 +1,14 @@
 <template>
-   <h1>Contact page</h1>
+   <NotInPrototype />
 </template>
 
 <script>
+import NotInPrototype from '../elements/NotInPrototype';
 
 export default {
   name: 'Contact',
+  components: {
+    NotInPrototype
+  }
 }
 </script>

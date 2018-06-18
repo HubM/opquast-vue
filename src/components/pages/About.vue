@@ -1,10 +1,14 @@
 <template>
-   <h1>À propos page</h1>
+  <NotInPrototype />
 </template>
 
 <script>
+import NotInPrototype from '../elements/NotInPrototype';
 
 export default {
   name: 'À propos',
+  components: {
+    NotInPrototype
+  }
 }
 </script>

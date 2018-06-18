@@ -8,7 +8,7 @@
       </p>
       <Link class="btn btn-primary" path="/" message="Retour à l'accueil" />
     </div>
-    <img src="~assets/not-in-proto/illustration.svg" alt="Illustration qui représente que le site Opquast est en cours de réalisation" class="column">
+    <img src="~assets/notInProto/illustration.svg" alt="Illustration qui représente que le site Opquast est en cours de réalisation" class="column">
   </section>
 </template>
 
