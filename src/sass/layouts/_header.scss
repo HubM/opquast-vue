@@ -1,26 +1,61 @@
-// items menus 12px uppercase letter spacing 
-// items dropdown menu 16px
-
 header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
 
+  @include breakpoint(desktop) {
+    flex-direction: row;
+  }
   nav {
-    min-width: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    flex-direction: column;
+
+    @include breakpoint(tablet) {
+      flex-direction: row;
+    }
   }
 }
 
-.logo {
+.logo  {
   max-width: 260px;
+  display: block;
+  margin: 0 auto 0 0;
+
+  @include breakpoint(tablet) {
+    margin: 0 auto;
+  }
+
+  @include breakpoint(desktop) {
+    margin: 0 50px 0 0;
+  }
+}
+
+.burger {
+  position: absolute;
+  right: 40px;
+  top: 30px;
 }
 
 .main-items {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  @include breakpoint(tablet) {
+    flex-direction: row;
+    width: auto;
+  }
+
   & > li{
     font-family: $font-aller-regular;
-    padding: 30px 0;
     position: relative;
+    padding: 20px 10px;
+    &:not(:last-of-type) {
+      margin-right: 30px;
+    }
   }
   .main-items__title {
     font-size: 16px;
@@ -33,28 +68,35 @@ header {
 .main-items__sublinks {
   position: absolute;
   left: 0;
-  top: 60px;
+  top: 50px;
   min-width: 280px;
   background-color: #fff;
   border: 1px solid $color-geyser;
+  transform: translate(-5%, 10px);
   border-radius: 10px;
   padding: 10px;
-  transform: translate(-25%, 10px);
   opacity: 0;
   display: none;
   transition: transform,opacity $fast-animation ease-in-out;
+  
+  @include breakpoint(desktop) {
+    transform: translate(-15%, 10px);
+  }
 
   &.active {
     opacity: 1;
-    transform: translate(-25%, 0);
+    transform: translate(-5%, 0);
     display: block;
+
+    @include breakpoint(desktop) {
+      transform: translate(-15%, 0);
+    }
   }
 
   li {
     display: flex;
     align-items: center;
     line-height: 15px;
-    padding: 10px 10px;
     border-radius: 15px;
     background-color: #fff;
     border-style: solid;
@@ -62,12 +104,14 @@ header {
     border-color: #fff;
     transition: all $fast-animation ease-in-out;
     cursor: pointer;
+    padding: 10px 20px 10px 10px;
 
     &:not(:last-of-type) {
       margin-bottom: 5px;
     }
 
     & > img {
+      width: 20px;
       margin-right: 10px;
     }
   }
@@ -88,7 +132,7 @@ header {
 
   &.practices,
   &.practices .router-link-active {
-    min-width: 230px;
+    min-width: 240px;
     li:hover {
       background-color: $color-menu-lighten-princess;
       border-color: $color-flamingo;   
@@ -112,6 +156,8 @@ header {
 }
 
 .main-links {
+  display: flex;
+
   li {
     font-family: $font-aller-bold;
     text-transform: uppercase;
@@ -119,6 +165,10 @@ header {
 
     &.router-link-active {
       color: $color-forest-green;
+    }
+
+    &:first-of-type {
+      margin-right: 30px;
     }
   }
 }

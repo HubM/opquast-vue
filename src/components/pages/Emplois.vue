@@ -8,8 +8,3 @@ export default {
   name: 'Emplois',
 }
 </script>
-
-<style lang="scss">
-  @import '~styles';
-</style>
-

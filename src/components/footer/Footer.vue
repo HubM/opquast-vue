@@ -24,7 +24,7 @@
           </li>
         </ul>
       </div>
-      <div class="column is-offset-1 is-3">
+      <div class="column is-offset-1-widescreen is-3">
         <h4>Opquast</h4>
         <address>
           18, rue Lucien Granet 

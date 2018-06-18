@@ -96,7 +96,7 @@
 
 .home-bonnes-pratiques {
   img {
-    min-width: 420px;
+    max-width: 420px;
     margin: 0 auto 50px auto;
     @include breakpoint(desktop) {
       max-width: 100%;

@@ -8,7 +8,3 @@ export default {
   name: 'Presse',
 }
 </script>
-
-<style lang="scss">
-  @import '~styles';
-</style>

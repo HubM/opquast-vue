@@ -8,7 +8,3 @@ export default {
   name: 'Contact',
 }
 </script>
-
-<style lang="scss">
-  @import '~styles';
-</style>

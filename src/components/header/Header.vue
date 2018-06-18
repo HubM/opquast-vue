@@ -1,18 +1,21 @@
 <template>
   <header class="contained">
-    <router-link to='/'>
-      <img src="~assets/logo.svg" alt="Logo Opquast" class="logo">
+    <router-link to='/' class="logo">
+      <img src="~assets/logo.svg" alt="Logo Opquast">
     </router-link>
-    <nav class="is-hidden-touch">
-      <ul class="columns main-items">
-        <mainItem v-for="(item,key) in menu.mainItems" :item="item" :key="key" class="column" />
+
+    <img src="~assets/menu/burger.svg" alt="Icône menu burger" class="is-hidden-tablet burger">
+
+    <nav class="is-hidden-mobile">
+      <ul class="main-items">
+        <mainItem v-for="(item,key) in menu.mainItems" :item="item" :key="key" />
+      </ul>
+      <ul class="main-links">
+        <router-link tag='li' :to='item.link' v-for="(item, key) in menu.links" :key="key">
+          {{ item.name }}
+        </router-link>
       </ul>
     </nav>
-    <ul class="columns main-links is-hidden-touch">
-      <router-link tag='li' :to='item.link' class="column" v-for="(item, key) in menu.links" :key="key">
-        {{ item.name }}
-      </router-link>
-    </ul>
   </header>
 </template>
 

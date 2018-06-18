@@ -8,7 +8,3 @@ export default {
   name: 'Mentions légales',
 }
 </script>
-
-<style lang="scss">
-  @import '~styles';
-</style>

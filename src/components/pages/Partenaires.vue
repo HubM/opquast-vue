@@ -8,7 +8,3 @@ export default {
   name: 'Partenaires',
 }
 </script>
-
-<style lang="scss">
-  @import '~styles';
-</style>
