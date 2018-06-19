@@ -16,24 +16,33 @@
         >
     </header>
     <article>
-      <Filters :checklists="checklists"/>
+      <Filters :checklists="checklists" v-on:activeCategory="setActiveCategory"/>
+      <Rules :category="activatedCategory" />
     </article>
   </section>
 </template>
 
 <script>
 import Filters from './FilterChecklists';
+import Rules from './Rules';
 import checklists from '../../../datas/checklists.js';
 
 export default {
   name: 'Checklist',
   data() {
     return {
-      checklists: checklists
+      checklists: checklists,
+      activatedCategory: checklists.category[0],
+    }
+  },
+  methods: {
+    setActiveCategory(category) {
+      this.activatedCategory = category
     }
   },
   components: {
-    Filters
+    Filters,
+    Rules
   }
 }
 </script>

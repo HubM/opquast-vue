@@ -356,4 +356,12 @@
   margin-left: -1em;
   color: rgb(152, 159, 169);
 }
-
+.icon-backpack .path1:before {
+  content: "\e901";
+  color: rgb(255, 255, 255);
+}
+.icon-backpack .path2:before {
+  content: "\e945";
+  margin-left: -0.947265625em;
+  color: $color-scooter;
+}
