@@ -14,19 +14,31 @@
   flex-wrap: wrap;
 
   li {
-    width: 200px;
     cursor: pointer;
+    flex-basis: calc(100% / 5);
+  
+    &:nth-of-type(5n) {
+      flex-basis: auto;
+    }
   }
 }
 
 .category-list__content {
-  text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    min-width: 100px;
+    margin-bottom: 40px;
+
   p {
     font-family: $font-aller-bold;
     font-size: 14px;
     text-transform: uppercase;
     color: $color-gray-chateau;
     transition: color $fast-animation ease-in-out;
+    max-width: 110px;
+    letter-spacing: 1px;
+    line-height: initial;
   }
 
   &:hover {
@@ -57,7 +69,12 @@
       &.icon-web .path10:before,
       &.icon-plant .path7:before,
       &.icon-data:before,
-       {
+      &.icon-qualite-web .path2:before,
+      &.icon-qualite-web .path3:before,
+      &.icon-search .path2:before,
+      &.icon-accessible--1:before,
+      &.icon-accessible--2:before
+      {
         color: $color-flamingo;
       }  
     }
