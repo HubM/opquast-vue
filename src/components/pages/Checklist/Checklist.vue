@@ -17,7 +17,7 @@
     </header>
     <article>
       <Filters :checklists="checklists" v-on:activeCategory="setActiveCategory"/>
-      <Rules :category="activatedCategory" />
+      <Rules :category="activatedCategory" :checklists="checklists" />
     </article>
   </section>
 </template>

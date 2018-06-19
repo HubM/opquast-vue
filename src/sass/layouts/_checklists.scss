@@ -148,3 +148,33 @@
     }
   }
 }
+
+.list-rules {
+  width: 100%;  
+  position: relative;
+
+  thead {
+    background-color: $color-athens;
+    th {
+      border:none;
+    }
+  }
+
+  tbody {
+    width: 100%;
+    background-color: $color-cloud;
+
+    .icon-chevron--bottom {
+      cursor: pointer;
+      font-size: 10px;
+      float: right;
+      clear: both;
+      margin-right: 40px;
+      margin-top: 18px;
+
+      &:before {
+        color: $color-aqua-dark;
+      }
+    }
+  }
+}
