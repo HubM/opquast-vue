@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icn/performance</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="checklist" transform="translate(-946.000000, -551.000000)">
+            <g id="Group-12" transform="translate(909.000000, 518.000000)">
+                <g id="icn/performance" transform="translate(35.000000, 31.000000)">
+                    <g>
+                        <g id="Bounding_Boxes">
+                            <polygon id="Shape" points="0 0 48 0 48 48 0 48"></polygon>
+                        </g>
+                        <g id="Duotone" transform="translate(1.000000, 1.000000)" fill-rule="nonzero">
+                            <g id="Group">
+                                <path d="M22.84,15.56 C23.32,12.76 22.52,9.78 20.36,7.64 C18.48,5.74 15.96,4.86 13.48,5 L19.66,11.18 L11.18,19.66 L5,13.48 C4.86,15.96 5.74,18.46 7.62,20.36 C9.7,22.44 12.56,23.26 15.28,22.86 C16.7,22.66 18.08,22.1 19.28,21.22 L38.2,40.14 L39.96,38.38 L21.06,19.48 C22,18.28 22.6,16.96 22.84,15.56 Z" id="Shape" fill="#FFFFFF" opacity="0.3"></path>
+                                <path d="M44.22,36.94 L26.08,18.8 C27.94,14.12 26.98,8.6 23.2,4.8 C18.6,0.2 11.44,-0.22 6.34,3.5 L14,11.16 L11.16,14 L3.5,6.34 C-0.22,11.42 0.2,18.58 4.8,23.18 C8.52,26.9 13.94,27.88 18.58,26.14 L36.8,44.36 C37.58,45.14 38.84,45.14 39.62,44.36 L44.22,39.76 C45.02,39 45.02,37.72 44.22,36.94 Z M38.22,40.14 L19.3,21.22 C18.08,22.12 16.72,22.66 15.3,22.86 C12.58,23.26 9.72,22.44 7.64,20.36 C5.74,18.48 4.86,15.96 5,13.48 L11.18,19.66 L19.66,11.18 L13.48,5 C15.96,4.86 18.46,5.74 20.36,7.62 C22.52,9.78 23.34,12.76 22.84,15.54 C22.6,16.94 22,18.26 21.08,19.44 L39.98,38.34 L38.22,40.14 Z" id="Shape" fill="#989FA9"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

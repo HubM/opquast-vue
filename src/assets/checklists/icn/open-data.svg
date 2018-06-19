@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icn/open-data</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="checklist" transform="translate(-1197.000000, -729.000000)">
+            <g id="Group-2" transform="translate(1160.000000, 518.000000)">
+                <g id="icn/open-data" transform="translate(33.000000, 207.000000)">
+                    <g>
+                        <g id="Bounding_Boxes">
+                            <polygon id="Shape" points="0 0 48 0 48 48 0 48"></polygon>
+                        </g>
+                        <g id="Duotone" transform="translate(4.000000, 4.000000)" fill="#989FA9" fill-rule="nonzero">
+                            <path d="M22,0.1 L22,6.16 C28.78,7.14 34,12.94 34,20 C34,21.8 33.64,23.5 33.04,25.08 L38.24,28.14 C39.36,25.66 40,22.9 40,20 C40,9.64 32.1,1.1 22,0.1 Z M20,34 C12.26,34 6,27.74 6,20 C6,12.94 11.22,7.14 18,6.16 L18,0.1 C7.88,1.1 0,9.62 0,20 C0,31.04 8.94,40 19.98,40 C26.6,40 32.46,36.78 36.1,31.82 L30.9,28.76 C28.34,31.96 24.42,34 20,34 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

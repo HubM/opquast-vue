@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="781px" height="351px" viewBox="0 0 781 351" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>illu__checklist</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="49.0396927" cy="49.0196078" rx="49.0396927" ry="49.0196078"></ellipse>
+        <rect id="path-3" x="0" y="0" width="59.8284251" height="251.960784"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="checklist" transform="translate(-659.000000, -118.000000)">
+            <g id="illu__checklist" transform="translate(659.000000, 118.000000)">
+                <rect id="Rectangle-2" fill="#FFF0E9" x="0" y="0" width="61" height="350"></rect>
+                <g id="Group-18" transform="translate(0.000000, 1.000000)">
+                    <rect id="Rectangle-35" fill="#FED3C2" x="60" y="0" width="721" height="349.019608"></rect>
+                    <ellipse id="Oval-15" fill="#FFFFFF" cx="249.409731" cy="75.4901961" rx="49.0396927" ry="49.0196078"></ellipse>
+                    <g id="Rectangle-Copy" transform="translate(222.928297, 26.470588)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#FF8F68" xlink:href="#path-1"></use>
+                        <rect id="Rectangle" fill="#FFECE4" mask="url(#mask-2)" x="-23.5390525" y="-19.6078431" width="72.9710627" height="141.176471"></rect>
+                    </g>
+                    <g id="Group-6" transform="translate(60.318822, 185.294118) scale(1, -1) translate(-60.318822, -185.294118) translate(17.654289, 61.764706)" fill="#FFECE4">
+                        <polygon id="Rectangle-20" transform="translate(42.664533, 42.647059) scale(-1, 1) translate(-42.664533, -42.647059) " points="0 0 85.3290653 85.2941176 0 85.2941176"></polygon>
+                        <polygon id="Rectangle-20-Copy" transform="translate(42.664533, 121.078431) scale(-1, 1) translate(-42.664533, -121.078431) " points="0 78.4313725 85.3290653 163.72549 0 163.72549"></polygon>
+                        <polygon id="Rectangle-20-Copy-2" transform="translate(42.664533, 204.411765) scale(-1, 1) translate(-42.664533, -204.411765) " points="0 161.764706 85.3290653 247.058824 0 247.058824"></polygon>
+                    </g>
+                    <g id="Group-6" transform="translate(0.000000, 50.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Mask"></g>
+                        <g mask="url(#mask-4)" fill="#FFFFFF">
+                            <g transform="translate(60.318822, 135.294118) scale(1, -1) translate(-60.318822, -135.294118) translate(17.654289, 11.764706)">
+                                <polygon id="Rectangle-20" transform="translate(42.664533, 42.647059) scale(-1, 1) translate(-42.664533, -42.647059) " points="0 0 85.3290653 85.2941176 0 85.2941176"></polygon>
+                                <polygon id="Rectangle-20-Copy" transform="translate(42.664533, 121.078431) scale(-1, 1) translate(-42.664533, -121.078431) " points="0 78.4313725 85.3290653 163.72549 0 163.72549"></polygon>
+                                <polygon id="Rectangle-20-Copy-2" transform="translate(42.664533, 204.411765) scale(-1, 1) translate(-42.664533, -204.411765) " points="0 161.764706 85.3290653 247.058824 0 247.058824"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-8" transform="translate(702.536492, 78.431373) scale(-1, 1) translate(-702.536492, -78.431373) translate(624.072983, 0.000000)" fill="#FFECE4">
+                        <rect id="Rectangle-25" x="0" y="0" width="39.2317542" height="39.2156863"></rect>
+                        <rect id="Rectangle-25-Copy" x="0" y="39.2156863" width="78.4635083" height="39.2156863"></rect>
+                        <rect id="Rectangle-25-Copy-2" x="0" y="78.4313725" width="117.695262" height="39.2156863"></rect>
+                        <rect id="Rectangle-25-Copy-3" x="0" y="117.647059" width="156.927017" height="39.2156863"></rect>
+                    </g>
+                    <polygon id="Path-13" fill="#FF8F68" points="624.072983 156.862745 781 156.862745 781 350"></polygon>
+                    <g id="Group-16" transform="translate(586.802817, 200.000000)">
+                        <ellipse id="Oval-8-Copy-37" fill="#FFECE4" cx="51.4916773" cy="96.5686275" rx="7.35595391" ry="7.35294118"></ellipse>
+                        <ellipse id="Oval-8-Copy-45" fill="#FFECE4" cx="51.4916773" cy="52.4509804" rx="7.35595391" ry="7.35294118"></ellipse>
+                        <ellipse id="Oval-8-Copy-46" fill="#FFECE4" cx="51.4916773" cy="7.35294118" rx="7.35595391" ry="7.35294118"></ellipse>
+                        <ellipse id="Oval-8-Copy-48" fill="#FFECE4" cx="7.35595391" cy="97.5490196" rx="7.35595391" ry="7.35294118"></ellipse>
+                        <ellipse id="Oval-8-Copy-54" fill="#FFECE4" cx="7.35595391" cy="53.4313725" rx="7.35595391" ry="7.35294118"></ellipse>
+                        <ellipse id="Oval-8-Copy-56" fill="#FFECE4" cx="7.35595391" cy="8.33333333" rx="7.35595391" ry="7.35294118"></ellipse>
+                        <ellipse id="Oval-8-Copy-60" fill="#FFECE4" cx="95.6274008" cy="96.5686275" rx="7.35595391" ry="7.35294118"></ellipse>
+                        <ellipse id="Oval-8-Copy-65" fill="#FFECE4" cx="95.6274008" cy="52.4509804" rx="7.35595391" ry="7.35294118"></ellipse>
+                        <ellipse id="Oval-8-Copy-66" fill="#FFFFFF" cx="95.6274008" cy="7.35294118" rx="7.35595391" ry="7.35294118"></ellipse>
+                        <ellipse id="Oval-8-Copy-68" fill="#FFECE4" cx="139.763124" cy="96.5686275" rx="7.35595391" ry="7.35294118"></ellipse>
+                        <ellipse id="Oval-8-Copy-71" fill="#FFFFFF" cx="139.763124" cy="52.4509804" rx="7.35595391" ry="7.35294118"></ellipse>
+                        <ellipse id="Oval-8-Copy-72" fill="#FFFFFF" cx="139.763124" cy="7.35294118" rx="7.35595391" ry="7.35294118"></ellipse>
+                    </g>
+                    <g id="Group-17" transform="translate(338.661972, 184.313725)">
+                        <rect id="Rectangle-49" fill="#FFFFFF" x="0" y="18.7908497" width="93.9927443" height="93.9542484"></rect>
+                        <rect id="Rectangle-49-Copy" fill="#FF8F68" x="8.22436513" y="10.5698529" width="93.9927443" height="93.9542484"></rect>
+                        <rect id="Rectangle-49-Copy-2" fill="#FFECE4" x="18.7985489" y="0" width="93.9927443" height="93.9542484"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

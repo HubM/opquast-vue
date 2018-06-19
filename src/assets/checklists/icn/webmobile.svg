@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="44px" viewBox="0 0 28 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icn/webmobile</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="checklist" transform="translate(-453.000000, -551.000000)">
+            <g id="Group-14" transform="translate(408.000000, 518.000000)">
+                <g id="Group-6" transform="translate(4.000000, 0.000000)">
+                    <g id="icn/web-mobile" transform="translate(31.000000, 31.000000)">
+                        <g>
+                            <g id="Bounding_Boxes">
+                                <polygon id="Shape" points="0 0 48 0 48 48 0 48"></polygon>
+                            </g>
+                            <g id="Duotone" transform="translate(10.046512, 2.232558)" fill-rule="nonzero">
+                                <g id="Group">
+                                    <rect id="Rectangle-path" fill="#FFFFFF" opacity="0.3" x="3.98671096" y="7.9154334" width="19.9335548" height="27.7040169"></rect>
+                                    <path d="M23.9202658,0.0197885835 L3.98671096,0 C1.79401993,0 0,1.78097252 0,3.9577167 L0,39.577167 C0,41.7539112 1.79401993,43.5348837 3.98671096,43.5348837 L23.9202658,43.5348837 C26.1129568,43.5348837 27.9069767,41.7539112 27.9069767,39.577167 L27.9069767,3.9577167 C27.9069767,1.78097252 26.1129568,0.0197885835 23.9202658,0.0197885835 Z M23.9202658,35.6194503 L3.98671096,35.6194503 L3.98671096,7.9154334 L23.9202658,7.9154334 L23.9202658,35.6194503 Z" id="Shape" fill="#5F666F"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

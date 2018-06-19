@@ -1,0 +1,82 @@
+.checklists-page {
+  header {
+    background-color: $color-fair-pink;
+
+    h1 {
+      margin-bottom: 50px;
+    }
+  }
+}
+
+.category-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  li {
+    width: 200px;
+    cursor: pointer;
+  }
+}
+
+.category-list__content {
+  text-align: center;
+  p {
+    font-family: $font-aller-bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: $color-gray-chateau;
+    transition: color $fast-animation ease-in-out;
+  }
+
+  &:hover {
+    p{
+      color: $color-shuttle-gray;
+    }
+
+    .icon-category > span {
+      background-color: $color-cloud;
+      border-color: $color-geyser;
+    }
+  }
+
+  &.active {
+    p {
+      color: $color-flamingo;
+    }
+
+    .icon-category > span {
+      background-color: $color-provincial-pink;
+      border-color: $color-flamingo;
+
+      &.icon-repair .path2:before,
+      &.icon-mobile .path2:before,
+      &.icon-flower .path9:before,
+      &.icon-flower .path10:before,
+      &.icon-flower .path11:before,
+      &.icon-web .path10:before,
+      &.icon-plant .path7:before,
+      &.icon-data:before,
+       {
+        color: $color-flamingo;
+      }  
+    }
+  }
+}
+
+.icon-category {
+  font-size: 30px;
+  margin-bottom: 10px;
+  
+  & > span {
+    display: inline-block;
+    min-width: 90px;
+    padding: 30px;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: $color-shuttle-gray-2;
+    border-radius: 10px;
+    transition: background-color, border-color $fast-animation ease-in-out;
+  }
+}
