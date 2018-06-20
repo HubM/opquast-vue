@@ -54,6 +54,7 @@ export default {
       rules: {
         0: {
           title: `Chaque image décorative est dotée d'une alternative textuelle appropriée.`,
+          index: 1,
           rubrique: `alternatives`,
           content: {
             created: `Fournir aux robots d’indexation uniquement des informations pertinentes.`,
@@ -105,6 +106,7 @@ export default {
         },
         1: {
           title: `Le codage de caractères utilisé est UTF-8.`,
+          index: 2,
           rubrique: `code`,
           content: {
             created: `23 juin 2014`,
@@ -161,6 +163,7 @@ export default {
         0: {
           title: `Les numéros de téléphone sont activables via le protocole approprié.`,
           rubrique: `interactions`,
+          index: 1,
           content: {
             created: `14 février 2013`,
             objectif: `<p>

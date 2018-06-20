@@ -179,6 +179,8 @@
   width: 100%;  
   position: relative;
   background-color: $color-catskill;
+  max-height: 600px;
+  overflow-y: scroll;
 
   & > p {
     padding: 10px 0;
@@ -194,6 +196,10 @@
     height: 1px;
     margin: 0;
   }
+  
+  li {
+    overflow: hidden;
+  }
 }
 
 .head_infos_rule {
@@ -201,7 +207,7 @@
   justify-content: space-between;
   align-items: flex-start;
   padding-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 
   & > div {
     display: flex;
@@ -211,7 +217,14 @@
 
   .icon-chevron--bottom {
     font-size: 7px;
+    padding: 10px;
     cursor: pointer;
+    transition: all $fast-animation ease-in-out;
+
+    &.active {
+      transform: rotate(180deg);
+    }
+
     &::before {
       color: $color-aqua-dark;
     }
@@ -238,6 +251,12 @@
 .content_infos_rule {
   margin-left: 140px;
   max-width: 70%;
+  height: 0;
+
+  &.opened {
+    height: 500px;
+    height: 100%;
+  }
 
 
   p {

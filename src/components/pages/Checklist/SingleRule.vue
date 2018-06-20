@@ -2,7 +2,7 @@
   <li>
     <div class="head_infos_rule">
       <div>
-        <span>1</span>
+        <span>{{ rule.index }}</span>
         <p class="rubrique">
           {{ rule.rubrique }}
         </p>
@@ -10,10 +10,10 @@
           {{ rule.title }}
         </p>
       </div>
-      <span class="icon-chevron--bottom" @click="openRule" v-if="rule.content"></span>
+      <span class="icon-chevron--bottom" :class="{ active: isOpened }" @click="openRule" v-if="rule.content"></span>
     </div>
     <hr>
-    <div class="content_infos_rule">
+    <div class="content_infos_rule" :class="{ opened: isOpened }">
       <h3>Objectifs</h3>
       <div class="objectifs" v-html="rule.content.objectif"></div>
       <h3>Solution technique</h3>
@@ -27,10 +27,19 @@
 <script>
 export default {
   name: "SingleRule",
+  data() {
+    return {
+      isOpened: false
+    }
+  },
   props: ['rule'],
   methods: {
     openRule() {
-      alert('OPEN IT BRO');
+      const content = this.$el.children[2];
+
+      console.log(content);
+
+      this.isOpened = !this.isOpened;
     }
   }
 }

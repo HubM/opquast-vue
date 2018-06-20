@@ -18,7 +18,7 @@
     </article>
     <aside class="contained list-rules">
       <ul v-if="category.rules">
-        <SingleRule v-for="(rule, index) in category.rules" :key="index" :rule="rule"/>
+        <SingleRule v-for="(rule, index) in category.rules" :key="index" :rule="rule" />
       </ul>
       <p v-else class="has-text-centered">Pas de règles pour cette catégorie</p>
     </aside>
