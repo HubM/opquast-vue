@@ -149,31 +149,138 @@
   }
 }
 
+.header-list-rules {
+  display: flex;
+  background-color: $color-athens;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  & > div {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 40px;
+
+    & > p {
+      font-size: 18px;
+      color: $color-aqua-dark;
+      font-weight: 900;
+    }
+
+    select {
+      margin: 0 60px 0 70px;
+    }
+  }
+}
+
 .list-rules {
   width: 100%;  
   position: relative;
+  background-color: $color-catskill;
 
-  thead {
-    background-color: $color-athens;
-    th {
-      border:none;
+  & > p {
+    padding: 10px 0;
+  }
+  
+  & > ul {
+    margin: 0 20px;
+  }
+
+  hr {
+    width: 100%;
+    background-color: $color-geyser;
+    height: 1px;
+    margin: 0;
+  }
+}
+
+.head_infos_rule {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 20px;
+  margin-bottom: 20px;
+
+  & > div {
+    display: flex;
+    width: 100%;
+    padding-right: 70px;
+  }
+
+  .icon-chevron--bottom {
+    font-size: 7px;
+    cursor: pointer;
+    &::before {
+      color: $color-aqua-dark;
+    }
+
+  }
+   
+
+  .rubrique {
+    max-width: 160px;
+    width: 100%;
+    margin: 0 60px 0 85px;
+    font-size: 13px;
+    color: $color-aqua-dark;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+  }
+
+  .description {
+    line-height: initial;
+  }
+}
+
+.content_infos_rule {
+  margin-left: 140px;
+  max-width: 70%;
+
+
+  p {
+    line-height: initial;
+  }
+
+  h3 {
+    font-size: 12px;
+    color: #fff;
+    display: inline-block;
+    background-color: $color-aqua-dark;
+    letter-spacing: 1px;
+    padding: 10px 10px;
+    line-height: 0;
+    transform: translateX(-50px);
+    margin: 20px 0 15px 0;
+  }
+
+  .objectifs {
+    p {
+      &::before {
+        content: '—';
+        display: inline-block;
+        margin-right: 10px;
+      }
     }
   }
 
-  tbody {
-    width: 100%;
-    background-color: $color-cloud;
+  .solution_technique,
+  .moyen_controle {
+    ul {
+      padding-left: 10px;
+      margin-left:20px;
+      list-style: disc;
+      color: $color-aqua-dark;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    li {
+      line-height: initial;
 
-    .icon-chevron--bottom {
-      cursor: pointer;
-      font-size: 10px;
-      float: right;
-      clear: both;
-      margin-right: 40px;
-      margin-top: 18px;
-
-      &:before {
-        color: $color-aqua-dark;
+      p {
+        color: #000;
       }
     }
   }

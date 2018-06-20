@@ -8,21 +8,20 @@
         <b>version 3</b>
       </div>
     </div>
-    <table class="contained table list-rules">
-      <thead>
-        <tr>
-          <th><abbr title="Numéro">N°</abbr></th>
-          <th>
-            <Select :rubriques="category.rubriques" />
-          </th>
-          <th>Description</th>
-          <Search />
-        </tr>
-      </thead>
-      <tbody>
-        <SingleRule />
-      </tbody>
-    </table>
+    <article class="contained header-list-rules">
+      <div>
+        <p><abbr title="Numéro">N°</abbr></p>
+        <Select :rubriques="category.rubriques" />
+        <p>Description</p>
+      </div>
+      <Search />
+    </article>
+    <aside class="contained list-rules">
+      <ul v-if="category.rules">
+        <SingleRule v-for="(rule, index) in category.rules" :key="index" :rule="rule"/>
+      </ul>
+      <p v-else class="has-text-centered">Pas de règles pour cette catégorie</p>
+    </aside>
   </div>
 </template>
 
