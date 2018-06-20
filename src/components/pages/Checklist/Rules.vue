@@ -17,7 +17,7 @@
       <Search />
     </article>
     <aside class="contained list-rules">
-      <ul v-if="category.rules">
+      <ul v-if="this.rules.length > 0">
         <SingleRule v-for="(rule, index) in this.rules" :key="index" :rule="rule" />
       </ul>
       <p v-else class="has-text-centered">Pas de règles pour cette catégorie</p>
@@ -41,6 +41,9 @@ export default {
     setActiveCategory(rubrique) {
       this.$emit('filterRules', rubrique);
     }
+  },
+  updated() {
+    console.log(this.rules);
   },
   components: {
     Search,
