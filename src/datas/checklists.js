@@ -31,6 +31,7 @@ export default {
       icon: `<span class="icon-qualite-web"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>`,
       nbCriteres: 10,
       rubriques: [
+        'tous',
         'alternatives',
         'code',
         'contact',
@@ -51,8 +52,8 @@ export default {
         'syndication',
         'tableaux'
       ],
-      rules: {
-        0: {
+      rules: [  
+        {
           title: `Chaque image décorative est dotée d'une alternative textuelle appropriée.`,
           index: 1,
           rubrique: `alternatives`,
@@ -104,7 +105,7 @@ export default {
             
           }
         },
-        1: {
+        {
           title: `Le codage de caractères utilisé est UTF-8.`,
           index: 2,
           rubrique: `code`,
@@ -144,23 +145,22 @@ export default {
                             </p>`
           }
         },
-
-
-      }
+      ]
     },
     1: {
       title: 'Web mobile',
       icon: `<span class="icon-mobile"><span class="path1"></span><span class="path2"></span></span>`,
       nbCriteres: 50,
       rubriques: [
+        'tous',
         'interactions',
         'multimédia',
         'navigation',
         'présentation',
         'performances'
       ],
-      rules: {
-        0: {
+      rules: [
+        {
           title: `Les numéros de téléphone sont activables via le protocole approprié.`,
           rubrique: `interactions`,
           index: 1,
@@ -176,13 +176,14 @@ export default {
             moyen_controle: ``
           }        
         },
-      },
+      ],
     },
     2: {
       title: 'SEO',
       icon: `<span class="icon-search"><span class="path1"></span><span class="path2"></span></span>`,
       nbCriteres: 200,
       rubriques: [
+        'tous',
         'alternatives',
         'cadres',
         'structure',
@@ -200,6 +201,7 @@ export default {
       icon: `<span class="icon-repair"><span class="path1"></span><span class="path2"></span></span>`,
       nbCriteres: 400,
       rubriques: [
+        'tous',
         'css',
         'html',
         'images',
@@ -212,6 +214,7 @@ export default {
       icon: `<span class="icon-flower"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span></span>`,
       nbCriteres: 150,
       rubriques: [
+        'tous',
         'conception fonctionnelle',
         'ergonomie',
         'conception technique',
@@ -226,6 +229,7 @@ export default {
       icon: `<span class= "icon-web"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span></span>`,
       nbCriteres: 20,
       rubriques: [
+        'tous',
         'alternatives',
         'code',
         'contact',
@@ -249,6 +253,7 @@ export default {
       icon: `<span class="icon-accessible--1"></span>`,
       nbCriteres: 40,
       rubriques: [
+        'tous',
         'html'
       ]
     },
@@ -257,6 +262,7 @@ export default {
       icon: `<span class="icon-accessible--2"></span>`,
       nbCriteres: 70,
       rubriques: [
+        'tous',
         'html',
         'js'
       ]
@@ -282,6 +288,7 @@ export default {
       icon: `<span class="icon-data"></span>`,
       nbCriteres: 15,
       rubriques: [
+        'tous',
         'api',
         'animation',
         'applications',

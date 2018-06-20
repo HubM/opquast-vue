@@ -35,10 +35,6 @@ export default {
   props: ['rule'],
   methods: {
     openRule() {
-      const content = this.$el.children[2];
-
-      console.log(content);
-
       this.isOpened = !this.isOpened;
     }
   }

@@ -199,6 +199,12 @@
   
   li {
     overflow: hidden;
+
+    &:last-of-type {
+      hr {
+        display: none;
+      }
+    }
   }
 }
 
