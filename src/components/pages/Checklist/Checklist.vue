@@ -42,11 +42,13 @@ export default {
       this.activatedCategoryAllRules = category.rules;
     },
     setFilteredRules(subcategory) {
-      if(subcategory === 'tous') {
-        return this.activatedCategoryAllRules = checklists.category[0].rules;
-      } 
-      const self = this;
-      return this.activatedCategoryAllRules = self.activatedCategory.rules.filter(rule => rule.rubrique === subcategory)
+      if(this.activatedCategoryAllRules !== undefined) {
+        if(subcategory === 'tous') {
+          return this.activatedCategoryAllRules = this.activatedCategory.rules;
+        } 
+        const self = this;
+        return this.activatedCategoryAllRules = self.activatedCategory.rules.filter(rule => rule.rubrique === subcategory)
+      }
     }
   },
   components: {

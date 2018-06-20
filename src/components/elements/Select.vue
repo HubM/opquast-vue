@@ -7,6 +7,7 @@
 <script>
 export default {
   name: "Select",
+  props: ['rubriques'],
   data() {
     return {
       selectedRubrique: 'tous',
@@ -17,6 +18,5 @@ export default {
       this.$emit('activeRubrique',this.selectedRubrique)
     }
   },
-  props: ['rubriques']
 }
 </script>
