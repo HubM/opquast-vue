@@ -68,11 +68,13 @@ export default {
   links: {
     0: {
       name: "Emplois",
-      link: "/emplois"
+      link: "/emplois",
+      notified: true,
     },
     1: {
       name: "Blog",
-      link: "/blog"
+      link: "/blog",
+      notified: false
     }
   }
 }

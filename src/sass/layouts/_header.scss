@@ -49,6 +49,12 @@ header {
     flex-direction: row;
     width: auto;
   }
+  @include breakpoint(desktop) {
+    margin-left: 60px;
+  }
+  @include breakpoint(other, 1300px) {
+    margin-left: 140px;
+  }
 
   & > li{
     font-family: $font-aller-regular;
@@ -70,7 +76,7 @@ header {
   position: absolute;
   left: 0;
   top: 60px;
-  min-width: 280px;
+  min-width: 240px;
   background-color: #fff;
   border: 1px solid $color-geyser;
   transform: translate(-5%, 10px);
@@ -134,26 +140,34 @@ header {
   }
 
 
+  &.certifs {
+    min-width: 280px;
 
-  &.certifs li:hover,
-  &.certifs .router-link-active {
-    background-color: $color-menu-lighten-skunk;
-    border-color: $color-skunk;
-  }
-
-  &.partenariat li:hover,
-  &.partenariat .router-link-active {
-    background-color: $color-menu-lighten-aqua;
-    border-color: $color-aqua;
-  }
-
-  &.practices,
-  &.practices .router-link-active {
-    min-width: 240px;
-    li:hover {
-      background-color: $color-menu-lighten-princess;
-      border-color: $color-flamingo;   
+    li:hover,
+    .router-link-active {
+      background-color: $color-menu-lighten-skunk;
+      border-color: $color-skunk;
     }
+  }
+
+  &.partenariat {
+    min-width: 280px;
+    
+    li:hover,
+    .router-link-active {
+      background-color: $color-menu-lighten-aqua;
+      border-color: $color-aqua;
+    }
+  }
+
+  &.practices li {
+     max-width: 230px;
+  }
+  
+  &.practices li:hover,
+  &.practices .router-link-active {
+    background-color: $color-menu-lighten-princess;
+    border-color: $color-flamingo;   
   }
 
  
@@ -172,6 +186,13 @@ header {
   }
 }
 
+.notifs {
+  position: absolute;
+  top: -9px;
+  right: -7px;
+  transition: transform $fast-animation ease-in-out;
+  transform: scale(0.75);
+}
 .main-links {
   display: flex;
 
@@ -181,13 +202,30 @@ header {
     cursor: pointer;
     font-size: 13px;
     letter-spacing: 1px;
-    
+    position: relative;
+    transition: color $fast-animation ease-in-out;
+
     &.router-link-active {
-      color: $color-forest-green;
+      p {
+        color: $color-forest-green;
+      }
     }
 
     &:first-of-type {
       margin-right: 30px;
+
+      &:hover{
+        .notifs {
+          transform: scale(1);
+        }
+      }
+    }
+
+    &:hover{
+      p {
+        color: lighten($color-aqua-dark, 10%);
+      }
     }
   }
 }
+

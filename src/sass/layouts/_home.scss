@@ -166,6 +166,11 @@
   img {
     position: absolute;
     right: 0;
+    transform: translateY(30px);
+
+    @include breakpoint(1300px) {
+      transform: translateY(0);
+    }
   }
   .btn {
     min-width: 260px;

@@ -14,7 +14,11 @@
       </ul>
       <ul class="main-links">
         <router-link tag='li' :to='item.link' v-for="(item, key) in menu.links" :key="key">
-          {{ item.name }}
+
+          <p>{{ item.name }}</p>
+          <span v-if="item.notified === true" class="notifs">
+            <img src="~assets/header/notification.svg" alt="">
+          </span>
         </router-link>
       </ul>
     </nav>
