@@ -122,6 +122,23 @@
         padding: 30px 36px;
       }
 
+      &.icon-qualite-web .path2:before,
+      &.icon-qualite-web .path3:before,
+      &.icon-mobile .path2:before,
+      &.icon-search .path2:before,
+      &.icon-repair .path2:before,
+      &.icon-flower .path9:before,
+      &.icon-flower .path10:before,
+      &.icon-flower .path11:before,
+      &.icon-web .path10:before,
+      &.icon-accessible--1:before,
+      &.icon-accessible--2:before,
+      &.icon-plant .path7:before,
+      &.icon-data:before {
+        color: $color-aqua-dark;
+      }
+
+
     }
   }
   
@@ -169,7 +186,7 @@
       font-weight: 900;
     }
 
-    select {
+    .select {
       margin: 0 60px 0 70px;
     }
   }

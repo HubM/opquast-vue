@@ -4,7 +4,8 @@
       <div class="icon" v-html="category.icon"></div>
       <div class="content">
         <h2>{{ category.title }}</h2>
-        <p>{{ category.nbCriteres }} critères. La checklist de référence pour la qualité des sites !</p>
+        <p v-if="category.rules.length > 0">{{ category.rules.length }} critères. La checklist de référence pour la qualité des sites !</p>
+        <p v-else>Pas de règles pour cette catégorie</p>
         <b>version 3</b>
       </div>
     </div>
@@ -42,7 +43,9 @@ export default {
   },
   computed: {
     filteredRules() {
-      return this.rules.filter(rule => rule.title.toLowerCase().includes(this.search.toLowerCase()));
+      if(this.rules !== undefined) {
+        return this.rules.filter(rule => rule.title.toLowerCase().includes(this.search.toLowerCase()));
+      }
     }
   },
   methods: {

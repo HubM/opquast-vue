@@ -26,7 +26,7 @@
               :rules="activatedCategoryAllRules" 
         />
         <div class="contained join_us">
-          <h2>Vous souhaitez participer à la définition de nos-checklists ?</h2>
+          <h2>Vous souhaitez participer à la définition de nos checklists ?</h2>
           <p>Venez vous inscrire et réfléchissez, construisez de nouvelles recommandations et bonnes pratiques pour le web à nos côtés.</p>
           <a href="http://community.opquast.com/questions/" class="btn btn-primary">
             Rejoindre la communauté

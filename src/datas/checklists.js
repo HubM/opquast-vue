@@ -38,7 +38,7 @@ export default {
         'contenus',
         'e-commerce',
         'espace publics',
-        'fichiers et multimédia',
+        'fichiers',
         'formulaires',
         'hyperliens',
         'identification',
@@ -47,8 +47,8 @@ export default {
         'navigation',
         'newsletter',
         'présentation',
-        'sécurité et confidentialité',
-        'serveur et performances',
+        'sécurité',
+        'performances',
         'syndication',
         'tableaux'
       ],
@@ -195,6 +195,7 @@ export default {
         'présentation',
         'serveur'
       ],
+      rules: []
     },
     3: {
       title: 'Performance',
@@ -207,7 +208,8 @@ export default {
         'images',
         'scripts',
         'serveur',
-      ]
+      ],
+      rules: []
     },
     4: {
       title: 'Éco-concept',
@@ -215,14 +217,13 @@ export default {
       nbCriteres: 150,
       rubriques: [
         'tous',
-        'conception fonctionnelle',
+        'conception',
         'ergonomie',
-        'conception technique',
         'développement',
-        'conception graphique',
         'hébergement',
         'contenu',
-      ]
+      ],
+      rules: []
     },
     5: {
       title: 'Opquast website',
@@ -235,7 +236,7 @@ export default {
         'contact',
         'contenus',
         'e-commerce',
-        'fichiers et multimédia',
+        'multimédia',
         'formulaires',
         'hyperliens',
         'identification',
@@ -243,10 +244,11 @@ export default {
         'mobile',
         'navigation',
         'présentation',
-        'sécurité et confidentialité',
-        'serveur et performances',
+        'sécurité',
+        'performances',
         'tableaux'
-      ]
+      ],
+      rules: []
     },
     6: {
       title: 'Accesibilité premier pas',
@@ -254,7 +256,8 @@ export default {
       nbCriteres: 40,
       rubriques: [
         'html'
-      ]
+      ],
+      rules: []
     },
     7: {
       title: 'Accesibilité second pas',
@@ -264,23 +267,26 @@ export default {
         'tous',
         'html',
         'js'
-      ]
+      ],
+      rules: []
     },
     8: {
       title: 'Green it',
       icon: `<span class="icon-plant"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span></span>`,
       nbCriteres: 120,
       rubriques: [
-        'gouvernance et pilotage',
-        'achat it responsables',
-        'allongement de la durée de vie',
+        'tous',
+        'pilotage',
+        'achat responsables',
+        'allongement',
         'poste de travail',
         'téléphonie',
         'impression',
         'logiciel',
         'réseau',
         'data center',
-      ]
+      ],
+      rules: []
     },
     9: {
       title: 'Open data',
@@ -301,7 +307,8 @@ export default {
         'transparence',
         'utilisabilité',
         'vie privée'
-      ]
+      ],
+      rules: []
     },
   },
 }

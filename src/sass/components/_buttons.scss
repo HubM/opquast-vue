@@ -83,3 +83,51 @@
     }
   }
 }
+
+.select {
+  height: 100% !important;
+  position: relative;
+
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;  
+    border:none;
+    height: 100%;
+    background-color:#fff;
+    color: $color-aqua-dark;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $color-aqua-dark;
+    padding: 10px 20px; 
+    border-radius: 30px;
+    outline: 0;
+  
+    &:disabled {
+      opacity: 0.3;
+    }
+
+  }
+
+  &:not(.is-multiple):not(.is-loading)::after {
+    display: none;
+  }
+
+  .icon-select {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+  }
+
+}
+
+.select select:not([multiple]) {
+  padding-right: 50px;
+}
