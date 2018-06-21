@@ -7,6 +7,7 @@
             des professionnels du web
           </h1>
           <p>Démontrez votre crédibilité et vos compétences. Obtenez votre certification reconnue par l'État : Maîtrise de la qualité en projet web.</p>
+          <!-- <a href="btn "></a> -->
           <Link class="btn btn-primary" path="/" message="démarrer" />
         </div>
         <img src="~assets/homepage/illustration_1.svg" 

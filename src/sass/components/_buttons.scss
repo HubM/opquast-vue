@@ -18,7 +18,7 @@
   }
 
   .icon-arrow--right {
-    font-size: 10px;
+    font-size: 14px;
     transition: margin-left $fast-animation ease-in-out;
     &::before {
       color: $color-aqua-dark;
@@ -107,10 +107,6 @@
     padding: 10px 20px; 
     border-radius: 30px;
     outline: 0;
-  
-    &:disabled {
-      opacity: 0.3;
-    }
 
   }
 
