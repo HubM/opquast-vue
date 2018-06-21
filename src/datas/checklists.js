@@ -253,7 +253,6 @@ export default {
       icon: `<span class="icon-accessible--1"></span>`,
       nbCriteres: 40,
       rubriques: [
-        'tous',
         'html'
       ]
     },

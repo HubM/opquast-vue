@@ -22,7 +22,7 @@ header {
 
 .logo  {
   max-width: 260px;
-  display: block;
+  display: inherit;
   margin: 0 auto 0 0;
 
   @include breakpoint(tablet) {
@@ -179,7 +179,9 @@ header {
     font-family: $font-aller-bold;
     text-transform: uppercase;
     cursor: pointer;
-
+    font-size: 13px;
+    letter-spacing: 1px;
+    
     &.router-link-active {
       color: $color-forest-green;
     }

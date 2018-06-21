@@ -1,5 +1,5 @@
 <template>
-  <select name="rubrique" id="rubrique" v-on:change="changeRubrique" v-model="selectedRubrique">
+  <select name="rubrique" id="rubrique" v-on:change="changeRubrique" v-model="selectedRubrique" :disabled="rubriques.length <= 1">
     <option v-for="(rubrique,index) in rubriques" :key="index" :value="rubrique" :v-model="selectedRubrique" >{{ rubrique }}</option>
   </select>
 </template>

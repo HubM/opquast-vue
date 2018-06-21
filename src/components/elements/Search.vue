@@ -1,17 +1,27 @@
-<template>
-  <div class="input-search" @keypress.enter="searchable">
-    <input type="search" placeholder="Rechercher">
-    <span class="icon-search"><span class="path1"></span><span class="path2"></span></span>
-  </div>
-</template>
+// <template>
+ 
+// </template>
 
-<script>
-export default {
-  name: "Search",
-  methods: {
-    searchable() {
-      alert('ok');
-    }
-  }
-}
-</script>
+// <script>
+// export default {
+//   name: "Search",
+//   data() {
+//     return {
+//       search: ''
+//     }
+//   },
+//   props: ['rules'],
+//   methods: {
+//     searchRules() {
+//       const search = this.search.toLowerCase();
+//       // const searchedRules = this.rules.filter(rule => rule.title.toLowerCase().includes(search));
+
+//       if(search.length > 0) {
+//         return this.$emit('searchedRules', search);
+//       } 
+      
+//       // return false;
+//     }
+//   },
+// }
+// </script>

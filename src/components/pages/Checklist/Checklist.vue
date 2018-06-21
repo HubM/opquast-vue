@@ -17,7 +17,11 @@
     </header>
     <article>
       <Filters :checklists="checklists" v-on:activeCategory="setActiveCategory"/>
-      <Rules :category="activatedCategory" :checklists="checklists" v-on:filterRules="setFilteredRules" :rules="activatedCategoryAllRules" />
+      <Rules :category="activatedCategory" 
+             :checklists="checklists" 
+             v-on:filterRules="setFilteredRules" 
+             :rules="activatedCategoryAllRules" 
+      />
     </article>
   </section>
 </template>
@@ -49,7 +53,7 @@ export default {
         const self = this;
         return this.activatedCategoryAllRules = self.activatedCategory.rules.filter(rule => rule.rubrique === subcategory)
       }
-    }
+    },
   },
   components: {
     Filters,
