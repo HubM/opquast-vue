@@ -18,10 +18,9 @@
         <input type="text" placeholder="Rechercher" v-model="search">
         <span class="icon-search"><span class="path1"></span><span class="path2"></span></span>
       </div>
-      <!-- <Search v-on:searchedRules="changeSearch"/> -->
     </article>
     <aside class="contained list-rules">
-      <ul v-if="this.rules && this.rules.length > 0">
+      <ul v-if="this.filteredRules && this.filteredRules.length > 0">
         <SingleRule v-for="(rule, index) in this.filteredRules" :key="index" :rule="rule" />
       </ul>
       <p v-else class="has-text-centered">Pas de règles pour cette catégorie</p>
@@ -30,7 +29,6 @@
 </template>
 
 <script>
-// import Search from '../../elements/Search';
 import Select from '../../elements/Select';
 import SingleRule from './SingleRule';
 
@@ -51,12 +49,8 @@ export default {
     setActiveCategory(rubrique) {
       this.$emit('filterRules', rubrique);
     },
-    // setSearchableRules(search) {
-    //   this.$emit('searchedRules', search);
-    // }
   },
   components: {
-    // Search,
     Select,
     SingleRule
   }
