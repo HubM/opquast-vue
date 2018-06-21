@@ -36,6 +36,11 @@
   background-color: #fff;
   color: $color-aqua-dark;
   border-color: $color-aqua-dark;
+
+  &:hover {
+    border-color: lighten($color-aqua-dark, 10%);
+    color: lighten($color-aqua-dark, 10%);
+  }
 }
 
 

@@ -1,37 +1,49 @@
 <template>
-  <section class="checklists-page">
-    <header>
-      <div class="contained columns">
-        <div class="column is-8 is-offset-3">
-          <h1>Les check-lists des professionnels du web</h1>
-          <p>
-            La checklist de référence pour comprendre, contrôler et appliquer 
-            les standards de la qualité web.
-          </p>
+  <div>
+    <section class="checklists-page">
+      <header>
+        <div class="contained columns">
+          <div class="column is-8 is-offset-3">
+            <h1>Les check-lists des professionnels du web</h1>
+            <p>
+              La checklist de référence pour comprendre, contrôler et appliquer 
+              les standards de la qualité web.
+            </p>
+          </div>
         </div>
-      </div>
-        <img 
-          src="~assets/checklists/illustration_checklists.svg" 
-          alt="Illustration abstraite pour la page checklist"
-        >
-    </header>
-    <article>
-      <Filters :checklists="checklists" 
-               v-on:activeCategory="setActiveCategory"
-      />
-      <Rules :category="activatedCategory" 
-             :checklists="checklists" 
-             v-on:filterRules="setFilteredRules" 
-             :rules="activatedCategoryAllRules" 
-      />
-    </article>
-  </section>
+          <img 
+            src="~assets/checklists/illustration_checklists.svg" 
+            alt="Illustration abstraite pour la page checklist"
+          >
+      </header>
+      <article>
+        <Filters :checklists="checklists" 
+                v-on:activeCategory="setActiveCategory"
+        />
+        <Rules :category="activatedCategory" 
+              :checklists="checklists" 
+              v-on:filterRules="setFilteredRules" 
+              :rules="activatedCategoryAllRules" 
+        />
+        <div class="contained join_us">
+          <h2>Vous souhaitez participer à la définition de nos-checklists ?</h2>
+          <p>Venez vous inscrire et réfléchissez, construisez de nouvelles recommandations et bonnes pratiques pour le web à nos côtés.</p>
+          <a href="http://community.opquast.com/questions/" class="btn btn-primary">
+            Rejoindre la communauté
+            <span class="icon-arrow--right"></span>
+          </a>
+        </div>
+      </article>
+    </section>
+    <Footer />
+  </div>
 </template>
 
 <script>
 import Filters from './FilterChecklists';
 import Rules from './Rules';
 import checklists from '../../../datas/checklists.js';
+import Footer from '../../footer/Footer';
 
 export default {
   name: 'Checklist',
@@ -59,7 +71,8 @@ export default {
   },
   components: {
     Filters,
-    Rules
+    Rules,
+    Footer
   }
 }
 </script>

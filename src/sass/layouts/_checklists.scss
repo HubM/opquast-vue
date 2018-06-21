@@ -180,7 +180,24 @@
   position: relative;
   background-color: $color-catskill;
   max-height: 600px;
-  overflow-y: scroll;
+  overflow-y: auto;
+  margin-bottom: 50px;
+
+
+
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #0a1752;
+    border: 0px none #ffffff;
+    border-radius: 46px;
+  }
+  &::-webkit-scrollbar-track {
+    background: #f5ffff;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+  }
 
   & > p {
     padding: 10px 0;
@@ -199,6 +216,7 @@
   
   li {
     overflow: hidden;
+    cursor: pointer;
 
     &:last-of-type {
       hr {
@@ -258,12 +276,12 @@
   margin-left: 140px;
   max-width: 70%;
   height: 0;
-
+  
   &.opened {
     height: 500px;
     height: 100%;
+    margin-bottom: 30px;
   }
-
 
   p {
     line-height: initial;
@@ -308,5 +326,22 @@
         color: #000;
       }
     }
+  }
+
+  hr {
+    max-width: 50%;
+    margin: 30px auto 0 auto;
+  }
+}
+
+.join_us {
+  padding: 30px;
+  border: 2px solid $color-geyser;
+  border-radius: 10px;
+
+  h2 {
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 15px;
   }
 }
