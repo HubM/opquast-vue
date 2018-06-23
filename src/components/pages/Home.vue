@@ -12,7 +12,7 @@
               obtenir
               <span class="icon-shopping"></span>
             </a>
-            <Link class="btn btn-primary" path="/" message="démarrer" />
+            <Link class="btn btn-primary" path="/" message="découvrir" />
 
           </div>
         </div>

@@ -36,7 +36,8 @@ hr {
 }
 
 article,
-article.columns {
+article.columns,
+.not-in-proto {
   margin-top: 50px;
   @include breakpoint(desktop) {
     margin-top: 100px;

@@ -191,12 +191,21 @@
       padding-bottom: 40px;
     }
   }
+
   img {
     max-width: 100px;
     display: block;
     margin: 0 auto;
+    transform: scale(1);
+    transition: transform $fast-animation ease-in-out;
   }
 
+  & li:hover {
+    img {
+      transform: scale(1.05);
+    }
+  }
+ 
   .slick-slider {
     margin-top: 50px;
 

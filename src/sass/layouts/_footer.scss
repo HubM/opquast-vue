@@ -102,12 +102,6 @@ footer {
   display: flex;
   align-items: center;
   
-  li {
-    &:not(:last-of-type) {
-      margin-right: 10px;
-    }
-  }
-
   span {
     &:before {
       color: #fff;
@@ -117,6 +111,14 @@ footer {
       }
     }
   }
+
+  li {
+    &:not(:last-of-type) {
+      margin-right: 10px;
+    }
+
+  }
+
 }
 
 address {
