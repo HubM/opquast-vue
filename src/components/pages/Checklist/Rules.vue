@@ -9,7 +9,7 @@
         <b>version 3</b>
       </div>
     </div>
-    <article class="contained header-list-rules">
+    <article class="contained header-list-rules" v-if="category.rules.length > 0">
       <div>
         <p><abbr title="Numéro">N°</abbr></p>
         <Select :rubriques="category.rubriques" v-on:activeRubrique="setActiveCategory"/>

@@ -2,7 +2,6 @@
   header {
     background-color: $color-fair-pink;
     flex-direction: row;
-
     padding: 50px 0 30px 0;
 
     @include breakpoint(other, 940px) {
@@ -10,7 +9,12 @@
     }
 
     h1 {
-      margin-bottom: 50px;
+      margin-bottom: 30px;
+      line-height: 40px;
+      @include breakpoint(other, 480px) {
+        margin-bottom: 50px;
+        line-height: inherit;
+      }
     }
 
     img {
@@ -309,6 +313,17 @@
   
   & > ul {
     margin: 0 20px;
+
+    & > li {
+    overflow: hidden;
+    cursor: pointer;
+
+    &:last-of-type {
+      hr {
+        display: none;
+      }
+    }
+    }
   }
 
   hr {
@@ -318,16 +333,7 @@
     margin: 0;
   }
   
-  li {
-    overflow: hidden;
-    cursor: pointer;
 
-    &:last-of-type {
-      hr {
-        display: none;
-      }
-    }
-  }
 }
 
 .head_infos_rule {
