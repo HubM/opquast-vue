@@ -4,7 +4,7 @@
       <div class="icon" v-html="category.icon"></div>
       <div class="content">
         <h2>{{ category.title }}</h2>
-        <p v-if="category.rules.length > 0">{{ category.rules.length }} critères. La checklist de référence pour la qualité des sites !</p>
+        <p v-if="category.rules.length > 0">{{ category.rules.length }} critères. <span>  La checklist de référence pour la qualité des sites ! </span></p>
         <p v-else>Pas de règles pour cette catégorie</p>
         <b>version 3</b>
       </div>

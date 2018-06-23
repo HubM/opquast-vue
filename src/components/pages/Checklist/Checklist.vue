@@ -3,7 +3,7 @@
     <section class="checklists-page">
       <header>
         <div class="contained columns">
-          <div class="column is-11 is-offset-1 is-8-fullhd is-offset-3-fullhd">
+          <div class="column is-9 is-offset-2-tablet is-8-fullhd is-offset-3-fullhd">
             <h1>Les check-lists des professionnels du web</h1>
             <p>
               La checklist de référence pour comprendre, contrôler et appliquer 

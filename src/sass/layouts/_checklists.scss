@@ -1,9 +1,29 @@
 .checklists-page {
   header {
     background-color: $color-fair-pink;
+    flex-direction: row;
+
+    padding: 50px 0 30px 0;
+
+    @include breakpoint(other, 940px) {
+      padding: 0;
+    }
 
     h1 {
       margin-bottom: 50px;
+    }
+
+    img {
+      display: none;
+      @include breakpoint(other, 940px) {
+        display: block;
+        max-width: 50%;
+      }
+
+      @include breakpoint(widescreen) {
+        max-width: 70%;
+      }
+      
     }
   }
 }
@@ -32,14 +52,22 @@
 
   p {
     font-family: $font-aller-bold;
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
     color: $color-gray-chateau;
     transition: color $fast-animation ease-in-out;
     max-width: 110px;
     letter-spacing: 1px;
     line-height: initial;
+
+    @include breakpoint(tablet) {
+      font-size: 14px;
+    }
   }
+
+  // .icon-category > span {
+  //   padding: 20p;x
+  // }
 
   &:hover {
     p{
@@ -87,14 +115,22 @@
   
   & > span {
     display: inline-block;
-    min-width: 90px;
-    padding: 30px;
+    min-width: 70px;
+    padding: 20px;
+    font-size: 20px;
     background-color: transparent;
     border-width: 1px;
     border-style: solid;
     border-color: $color-shuttle-gray-2;
     border-radius: 10px;
     transition: background-color, border-color $fast-animation ease-in-out;
+
+
+    @include breakpoint(tablet) {
+      padding: 30px; 
+      min-width: 90px; 
+      font-size: 30px;
+    }
   }
 }
 
@@ -105,21 +141,41 @@
   align-items: center;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;  
+  padding-left:10px;
 
+  @include breakpoint(tablet) {
+    padding-left: 0;
+  }
   .icon {
-    width: 90px;
-    max-height: 90px;
-    margin-left: 15px;
-    margin-right: 15px;
+    width: 80px;
+    max-height: 80px;
+    margin-left: 5px;
+    margin-right: 5px;
 
+    @include breakpoint(tablet) {
+      margin-left: 15px;
+      margin-right: 15px;
+      width: 90px;
+      max-height: 90px;      
+    }
+    
     & > span {
-      padding: 30px;
+      padding: 20px;
       background-color: #fff;
       border-radius: 10px; 
-      font-size: 30px;
+      font-size: 20px;
 
       &.icon-mobile {
-        padding: 30px 36px;
+        padding: 20px 26px;
+      }
+
+      @include breakpoint(tablet) {
+        font-size: 30px;
+        padding: 30px;
+
+        &.icon-mobile {
+          padding: 30px 36px;
+        }
       }
 
       &.icon-qualite-web .path2:before,
@@ -144,17 +200,21 @@
   
   & > .content {
     color: #fff;
+    margin-right: 30px;
+    margin-left: 10px;
+
     h2 {
       font-family: $font-aller-bold; 
       color: #fff;
       letter-spacing: 2px;
-      font-size: 18px;
+      font-size: 15px;
       text-transform: uppercase;
-      margin-bottom: 10px;
+      margin-bottom: 5px;
     }
     p {
-      font-size: 18px;
+      font-size: 14px;
       margin-bottom: 0;
+      line-height: initial;
     }
     b {
       font-weight: 700;
@@ -162,6 +222,18 @@
       text-transform: uppercase;
       letter-spacing: 1px;
       font-size: 14px;
+    }
+    
+    @include breakpoint(tablet) {
+      margin-right: 0;
+      margin-left: 0;
+      h2 {
+        font-size: 18px;
+        margin-bottom: 15px;
+      }
+      p {
+        font-size: 18px;
+      }
     }
   }
 }
@@ -173,7 +245,12 @@
   justify-content: space-between;
   margin-top: 0;
   margin-bottom: 0;
-
+  flex-direction: column;
+  padding: 15px 0;
+  @include breakpoint(other, 540px) {
+    flex-direction: row;
+    padding: 0;
+  }
   & > div {
     display: flex;
     align-items: center;
@@ -181,13 +258,20 @@
     margin-right: 40px;
 
     & > p {
+      display: none;
       font-size: 16px;
       color: $color-aqua-dark;
       font-weight: 900;
+
+      @include breakpoint(tablet) {
+        display: inline;
+      }
     }
 
     .select {
-      margin: 0 60px 0 70px;
+      @include breakpoint(tablet) {
+        margin: 0 60px 0 70px;
+      }      
     }
   }
 }
@@ -196,9 +280,12 @@
   width: 100%;  
   position: relative;
   background-color: $color-catskill;
-  max-height: 600px;
-  overflow-y: auto;
   margin-bottom: 50px;
+  
+  @include breakpoint(tablet) {
+    max-height: 600px;
+    overflow-y: auto;
+  }
 
 
 
@@ -246,19 +333,50 @@
 .head_infos_rule {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   padding-top: 20px;
   margin-bottom: 10px;
+  flex-direction: column;
 
+  @include breakpoint(other, 580px) {
+    flex-direction: row;
+    align-items: flex-start;
+  }
   & > div {
     display: flex;
     width: 100%;
-    padding-right: 70px;
+    line-height: initial;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+    
+    span,
+    .rubrique {
+      flex-basis: 50%;  
+    }
+
+    .description {
+      flex-basis: 100%;
+    }
+
+    @include breakpoint(other, 580px) {
+      padding-right: 70px;
+      line-height: inherit;
+      flex-wrap: initial;
+      justify-content: initial;
+
+      span, 
+      .rubrique,
+      .description{
+        flex-basis: auto;
+      }
+    }
   }
 
   .icon-chevron--bottom {
-    font-size: 7px;
-    padding: 10px;
+    font-size: 12px;
+    padding: 0;
     cursor: pointer;
     transition: all $fast-animation ease-in-out;
 
@@ -270,29 +388,65 @@
       color: $color-aqua-dark;
     }
 
+    @include breakpoint(tablet) {
+      padding: 10px;  
+    }
+
   }
    
 
   .rubrique {
     max-width: 160px;
     width: 100%;
-    margin: 0 60px 0 85px;
+    margin: 0;
     font-size: 13px;
     color: $color-aqua-dark;
     text-transform: uppercase;
     font-weight: 900;
+    text-align: right;
     letter-spacing: 1px;
+
+    @include breakpoint(other, 580px) {
+      margin: 0 0 0 25px;
+      text-align: left;
+    }
+    @include breakpoint(tablet) {
+      margin: 0 60px 0 85px;
+      
+    }
+  }
+  .description {
+    text-align: center;
+    font-size: 14px;
+    margin: 20px 0;
+
+    @include breakpoint(other, 580px) {
+      line-height: initial;
+      text-align: left;
+      margin: 0;
+    }
   }
 
-  .description {
-    line-height: initial;
+
+  p {
+    font-size: 12px;
+
+    @include breakpoint(tablet) {
+      font-size: 14px;
+    }
   }
 }
 
 .content_infos_rule {
-  margin-left: 140px;
-  max-width: 70%;
+  margin-left: 0;
+  max-width: 100%;
   height: 0;
+  
+  
+  @include breakpoint(tablet) {
+    max-width: 70%;
+    margin-left: 140px;
+  }
   
   &.opened {
     height: 500px;
@@ -302,6 +456,12 @@
 
   p {
     line-height: initial;
+    font-size: 14px;
+
+    @include breakpoint(tablet) {
+      font-size: inherit;
+    }
+
   }
 
   h3 {
@@ -312,8 +472,11 @@
     letter-spacing: 1px;
     padding: 10px 10px;
     line-height: 0;
-    transform: translateX(-50px);
     margin: 20px 0 15px 0;
+    
+    @include breakpoint(tablet){
+      transform: translateX(-50px);
+    }
   }
 
   .objectifs {
@@ -360,5 +523,9 @@
     font-size: 18px;
     font-weight: 900;
     margin-bottom: 15px;
+  }
+
+  a {
+    min-width: 325px;
   }
 }

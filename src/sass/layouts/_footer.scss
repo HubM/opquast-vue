@@ -76,6 +76,7 @@ footer {
       margin-bottom: 0;
       border-bottom: none;
       padding: 10px 21% 10px 20px;
+      text-align: left;
     }
 
     @include breakpoint(other,1200px) {

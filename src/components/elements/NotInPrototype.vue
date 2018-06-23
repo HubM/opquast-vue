@@ -6,7 +6,7 @@
         Cette page est en cours de construction afin de vous garantir une meilleure expérience
         sur notre site.
       </p>
-      <Link class="btn btn-primary" path="/" message="Retour à l'accueil" />
+      <Link class="btn btn-primary btn-extended" path="/" message="Retour à l'accueil" />
     </div>
     <img src="~assets/notInProto/illustration.svg" alt="Illustration qui représente que le site Opquast est en cours de réalisation" class="column">
   </section>

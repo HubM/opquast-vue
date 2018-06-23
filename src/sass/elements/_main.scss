@@ -42,7 +42,7 @@ article.columns {
     margin-top: 100px;
     margin-bottom: 100px;
   }
-  @include breakpoint(fullhd) {
+  @include breakpoint(other, 1408px) {
     margin-top: 140px;
     margin-bottom: 140px;
   }
@@ -63,6 +63,7 @@ body {
   font-weight: 300;
   line-height: 28px;
 }
+
 h1 {
   font-family: $font-aller-bold;
   font-size: 35px;

@@ -8,11 +8,11 @@
   margin-top: 40px;
   padding: 10px 15px 10px 20px;
   transition: all $fast-animation ease-in-out;
-  min-width: 170px;
-  
+  min-width: 180px;
   margin-left: 50%;
   transform: translateX(-50%);
   @include breakpoint(tablet) {
+    min-width: 170px;
     margin-left: auto;
     transform: translateX(0);
   }
@@ -70,16 +70,21 @@
 
 
 .btn-extended {
-  min-width: 220px;
+  min-width: 250px;
+
 }
 
 .input-search {
   input {
     border: none;
-    padding: 13px 40px 13px 20px;
+    padding: 13px 10px 13px 20px;
     border-radius: 30px;
     outline: 0;
     margin: 10px 0;
+
+    @include breakpoint(tablet) {
+      padding: 13px 40px 13px 20px;
+    }
 
     @include breakpoint(other, 1300px) {
       padding: 13px 100px 13px 20px;
@@ -93,11 +98,15 @@
     }
   
     &::placeholder {
-      font-size: 12px;
+      font-size: 10px;
       color: $color-aqua-dark;
       text-transform: uppercase;
       font-weight: 900;
       min-width: 260px;
+
+      @include breakpoint(tablet) {
+        font-size: 12px;
+      }
     }
   }
 
@@ -124,7 +133,7 @@
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 900;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -133,6 +142,10 @@
     border-radius: 30px;
     outline: 0;
 
+
+    @include breakpoint(tablet) {
+      font-size: 12px;
+    }
   }
 
   &:not(.is-multiple):not(.is-loading)::after {
@@ -141,14 +154,22 @@
 
   .icon-select {
     position: absolute;
-    right: 25px;
+    right: 10px;
     top: 50%;
     transform: translateY(-50%);
     font-size: 18px;
+
+
+    @include breakpoint(tablet) {
+      right: 25px;
+    }
   }
 
 }
 
 .select select:not([multiple]) {
-  padding-right: 50px;
+  padding-right: 3rem;
+  @include breakpoint(tablet) {
+    padding-right: 50px;
+  }
 }
