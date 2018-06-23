@@ -1,0 +1,26 @@
+.chat {
+  position: fixed;
+  z-index: 2;
+  bottom: 30px;
+  right: 30px;;
+  padding: 18px 16px  5px 16px;
+  background-color: $color-menu-lighten-aqua;
+  border-radius: 50%;
+  border: 1px solid $color-aqua;
+  transition: transform $fast-animation ease-in-out;
+  cursor: pointer;
+
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  @include breakpoint(other, 480px) {
+    padding: 22px 20px  10px 22px;
+    right: 50px;
+  }
+
+  img {
+    width: 30px;
+  }
+}

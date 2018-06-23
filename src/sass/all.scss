@@ -1,4 +1,4 @@
-@import "var";
+@import "elements/var";
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700i,900');
 @import "~slick-carousel/slick/slick.css";
 
@@ -6,13 +6,13 @@
 @import "~bulma";
 @import "~buefy/src/scss/buefy";
 
-// main
-@import "helpers";
-@import "main";
-@import "fonts";
-
-// components
-@import "components/buttons";
+// elements
+@import "elements/helpers";
+@import "elements/slider";
+@import "elements/buttons";
+@import "elements/main";
+@import "elements/fonts";
+@import "elements/chat";
 
 // layouts
 @import "layouts/header";

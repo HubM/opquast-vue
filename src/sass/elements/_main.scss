@@ -22,6 +22,9 @@
 
 .column {
   padding: 0.75rem 1.25rem;
+
+
+  width: 100%;
 }
 
 hr {
@@ -35,51 +38,18 @@ hr {
 article,
 article.columns {
   margin-top: 50px;
-  @include breakpoint(tablet) {
-    margin-top: 120px;
-    margin-bottom: 80px;
-  }
   @include breakpoint(desktop) {
-    margin-top: 140px;
+    margin-top: 100px;
     margin-bottom: 100px;
+  }
+  @include breakpoint(fullhd) {
+    margin-top: 140px;
+    margin-bottom: 140px;
   }
 }
 
 .bck-cloud {
   background-color: $color-cloud;
-}
-
-@media screen and (max-width: 640px) {
-  .slick-slide li {
-    display: block !important;
-    margin: 0 auto;
-  }
-}
-
-.slick-dots {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-
-  li {
-    text-indent: -9999px;
-    background: transparent;
-    border: 1px solid $color-shuttle-gray;
-    background: $color-shuttle-gray;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    cursor: pointer;
-
-    &:not(:last-of-type) {
-      margin-right: 40px !important;
-    }
-
-    &.slick-active {
-      padding: 6px;
-    }
-  }
 }
 
 ul {

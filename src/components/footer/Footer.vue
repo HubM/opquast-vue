@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div class="columns contained footer">
-      <nav class="column is-2 footer-links">
+      <nav class="column is-2-tablet footer-links">
           <h4>liens</h4>
           <ul>
             <router-link tag="li" :to="item.path" v-for="(item,key) in menu.links" :key="key">
@@ -9,7 +9,7 @@
             </router-link>
           </ul>
       </nav>
-      <div class="column is-offset-1 is-6">
+      <div class="column is-7-tablet is-offset-1-widescreen is-6-desktop is-5-widescreen contacts">
         <h4>Newsletter</h4>
         <form class="newsletter">
           <input type="text" placeholder="Votre email" />
@@ -24,7 +24,7 @@
           </li>
         </ul>
       </div>
-      <div class="column is-offset-1-widescreen is-3">
+      <div class="column is-offset-1-desktop is-3-tablet adresse">
         <h4>Opquast</h4>
         <address>
           18, rue Lucien Granet 

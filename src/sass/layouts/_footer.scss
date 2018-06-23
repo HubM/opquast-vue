@@ -8,13 +8,28 @@ footer {
 
 .footer {
   background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   h4{ 
     color: #fff;
     margin-bottom: 15px;
   }
 }
 
+
+.contacts {
+  order: 3;
+
+  @include breakpoint(tablet) {
+    order: initial;
+  }
+  flex-basis: 100%;
+}
+
 .footer-links {
+  flex-basis: 50%;
+  width: 50%;
   li {
     cursor: pointer;
     display: block;
@@ -22,24 +37,50 @@ footer {
   }
 }
 
+.adresse {
+  order: 2;
+  flex-basis: 50%;
+  @include breakpoint(tablet) {
+    order: initial;
+  }
+}
+
 .newsletter {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   max-width: 420px;
-  border: 1px solid #fff;
-  border-radius: 30px;
   margin-bottom: 45px;
   overflow: hidden;
-
-
+  margin-top: -3px;
+  
+  @include breakpoint(other, 540px) {
+    flex-direction: row;
+    border: 1px solid #fff;
+    border-radius: 30px;
+  }
+  
   input[type="text"] {
+    padding: 10px 30px 8px 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
     background: none;
-    border:none;
     font-size: 16px;
-    padding: 15px 100px 15px 20px;
-    color: #fff;
-    
+    color: #fff;  
+    outline:0;
+
+    @include breakpoint(other, 540px) {
+      margin-bottom: 0;
+      border-bottom: none;
+      padding: 10px 21% 10px 20px;
+    }
+
+    @include breakpoint(other,1200px) {
+      padding: 10px 100px 10px 20px;
+    }
     &::placeholder {
       color: #fff;
     }
@@ -52,6 +93,7 @@ footer {
     background: #fff;
     padding: 15px 20px;
     border: none;
+    cursor: pointer;
   }
 }
 
@@ -78,6 +120,8 @@ footer {
 
 address {
   color: #fff;
+  font-family: $font-roboto;
+  font-weight: 300;
 }
 
 p[itemprop="telephone"],
@@ -93,13 +137,18 @@ p[itemprop="telephone"] > a {
 
 
 .subfooter {
-  background-color: #162158;
-  div {
-    display: flex;
-    align-items: center;
-    color: #fff;
-    padding: 10px 0;
-    font-size: 13px;
+  display: none;
+
+  @include breakpoint(tablet) {
+    display: block;
+    background-color: #162158;
+    div {
+      display: flex;
+      align-items: center;
+      color: #fff;
+      padding: 10px 0;
+      font-size: 13px;
+    }
   }
 } 
 

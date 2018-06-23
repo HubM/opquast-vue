@@ -7,6 +7,32 @@
     flex-direction: row;
   }
 
+  .actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    @include breakpoint(other, 480px) {
+      flex-direction: row;
+    }
+
+    @include breakpoint(desktop) {
+      justify-content: flex-start;
+    }
+
+    .btn {
+      margin-left: 0;
+      transform: translateX(0);
+      &:nth-of-type(2) {
+        margin-top: 25px;
+        @include breakpoint(other, 480px) {
+          margin-top: 40px;
+        }
+      }
+    }
+  }
+
   h1 {
     margin-bottom: 35px;
     @include breakpoint(tablet) {
@@ -63,11 +89,6 @@
       transform: translateX(0);
     }
   }
-  h4 {
-    font-size: 15px;
-    font-weight: 900;
-    text-transform: uppercase;
-  }
 }
 
 .home-evidence  {
@@ -86,6 +107,21 @@
     &:not(:last-of-type) {
       margin-right: 135px;
     }
+
+
+    hr{
+      width: 10px;
+      opacity: 0.5;
+      transition: all $fast-animation ease-in-out;
+    }
+  
+    &:hover {
+      hr {
+        width: 15px;
+        opacity: 1;
+      }
+    }
+
   }
   img {
     margin-bottom: 45px;
@@ -119,7 +155,7 @@
 } 
 
 .home-partners {
-  padding-top: 40px;
+  padding: 40px 0;
 
   &.contained {
     position: relative;
@@ -133,12 +169,19 @@
     padding-bottom: 4px;
     border-bottom: 1.5px solid $color-pirate;
     z-index: 1;
+    transition: all $fast-animation ease-in-out;
     
     @include breakpoint(tablet) {
       top: 40px;
       right: 0;
       bottom: initial;
       transform: translateX(0);
+    }
+
+    &:hover,
+    &:focus {
+      color: lighten($color-pirate, 20%);
+      border-bottom: 1.5px solid lighten($color-pirate, 20%);
     }
   }
   ul{
@@ -171,9 +214,16 @@
   img {
     position: absolute;
     right: 0;
-    transform: translateY(30px);
+    transform: translateY(150px);
+    max-width: 300px;
 
-    @include breakpoint(1300px) {
+
+    @include breakpoint(desktop) {
+      max-width: 100%;
+      transform: translateY(30px);
+    }
+
+    @include breakpoint(other,1300px) {
       transform: translateY(0);
     }
   }

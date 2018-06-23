@@ -7,8 +7,14 @@
             des professionnels du web
           </h1>
           <p>Démontrez votre crédibilité et vos compétences. Obtenez votre certification reconnue par l'État : Maîtrise de la qualité en projet web.</p>
-          <!-- <a href="btn "></a> -->
-          <Link class="btn btn-primary" path="/" message="démarrer" />
+          <div class="actions">
+            <a href="#" class="btn btn-secondary">
+              obtenir
+              <span class="icon-shopping"></span>
+            </a>
+            <Link class="btn btn-primary" path="/" message="démarrer" />
+
+          </div>
         </div>
         <img src="~assets/homepage/illustration_1.svg" 
              alt="Illustration qui représente les bonnes pratiques web"
@@ -21,7 +27,7 @@
           <p class="color-flamingo pre-title">certification Opquast</p>
           <h2>Maîtrise de la qualité en projet web </h2>
           <p>
-            Cette certification concerne l’ensemble des professionnels amenées à concevoir, 
+            Cette certification, valable pendant 5 ans, concerne l’ensemble des professionnels amenées à concevoir, 
             produire, maintenir ou travailler sur les sites Web et leurs déclinaisons mobiles. 
             Elle permet d’évaluer la maîtrise professionnelle des fondamentaux, des bonnes pratiques du Web, 
             et des risques associés à la mise en œuvre de ces différentes règles.
@@ -51,7 +57,7 @@
           </li>
           <li>
             <img src="~assets/homepage/icn-reconnu.svg" alt="Illustration qui représente que l'INCP reconnait la certification">
-            <h3>Reconnue INCP</h3>
+            <h3>Reconnue INCP 5 ans</h3>
             <hr>
             <p>
               La certification Opquast est reconnue à la Commission Nationale de la Certification Professionnelle. 
@@ -114,7 +120,7 @@
         </div>
       </article> 
       <article class="columns contained home-explication-3">
-        <div class="column is-7 is-offset-2">
+        <div class="column is-7 is-offset-0 is-offset-2-widescree ">
           <p class="color-flamingo pre-title">Partenariats</p>
           <h2>Écoles et entreprises, découvrez nos offres</h2>
           <p>
@@ -130,6 +136,9 @@
         <img src="~assets/homepage/illustration_4.svg" alt="Illustration abstraite" class="is-hidden-mobile">
       </article>  
     </section>
+    <div class="chat">
+      <img src="~assets/chat.svg" alt="Icône qui représente un dialogue">
+    </div>
     <Footer />
   </div>
 </template>
@@ -193,6 +202,26 @@ export default {
           },
         ]
       },      
+    }
+  },
+
+  mounted() {
+    this.initSlider();
+  },
+  methods: {
+    initSlider() {
+      window.addEventListener("resize",(e) => {
+        if(e.srcElement.innerWidth <= 768) {
+          this.isReadyForSliderPartners = true;
+        } else {
+          this.isReadyForSliderPartners = false;
+        }
+        if(e.srcElement.innerWidth <= 1024) {
+          this.isReadyForSliderEvidence = true;
+        } else {
+          this.isReadyForSliderEvidence = false;
+        }
+      });
     }
   },
   components: {
