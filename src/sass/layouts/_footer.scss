@@ -128,9 +128,11 @@ footer {
   span {
     &:before {
       color: #fff;
-
-      &:hover {
-        color: darken(#fff, 10%);
+      transition: color $fast-animation ease-in-out;
+    }
+    &:hover {
+      &:before {
+        color: $color-shuttle-gray-2;
       }
     }
   }
