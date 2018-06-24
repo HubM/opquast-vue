@@ -13,7 +13,10 @@
         <h4>Newsletter</h4>
         <form class="newsletter">
           <input type="text" placeholder="Votre email" />
-          <button type="submit">s'abonner</button>
+          <button type="submit">
+            <p>s'abonner</p>
+            <span class="icon-arrow--right"></span>
+          </button>
         </form>
         <h4>Réseaux sociaux</h4>
         <ul class="socials">
@@ -27,8 +30,8 @@
       <div class="column is-offset-1-desktop is-3-tablet adresse">
         <h4>Opquast</h4>
         <address>
-          18, rue Lucien Granet 
-          33 150 CENON
+          18, rue Lucien Granet <br> 
+          33 150 CENON <br>
           France
         </address>
         <p itemprop="telephone">

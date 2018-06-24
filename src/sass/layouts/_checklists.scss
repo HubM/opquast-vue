@@ -1,4 +1,5 @@
 .checklists-page {
+  overflow-x: hidden;
   header {
     background-color: $color-fair-pink;
     flex-direction: row;
@@ -68,11 +69,7 @@
       font-size: 14px;
     }
   }
-
-  // .icon-category > span {
-  //   padding: 20p;x
-  // }
-
+  
   &:hover {
     p{
       color: $color-shuttle-gray;
@@ -80,7 +77,6 @@
 
     .icon-category > span {
       background-color: $color-cloud;
-      border-color: $color-geyser;
     }
   }
 
@@ -125,9 +121,9 @@
     background-color: transparent;
     border-width: 1px;
     border-style: solid;
-    border-color: $color-shuttle-gray-2;
+    border-color: $color-geyser;
     border-radius: 10px;
-    transition: background-color, border-color $fast-animation ease-in-out;
+    transition: background-color $fast-animation ease-in-out;
 
 
     @include breakpoint(tablet) {
