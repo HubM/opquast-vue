@@ -1,45 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="195" height="160" viewBox="0 0 195 160">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="195px" height="160px" viewBox="0 0 195 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icn--reconnu</title>
+    <desc>Created with Sketch.</desc>
     <defs>
-        <path id="a" d="M0 128.904h92.307V0H0z"/>
-        <path id="c" d="M.447 0v37.627l9.99-12.19 9.989 12.19V0z"/>
-        <path id="e" d="M0 0l46 46H0z"/>
-        <path id="g" d="M0 0l46 46H0z"/>
+        <polygon id="path-1" points="0 128.903569 92.3068615 128.903569 92.3068615 3.92156864e-05 0 3.92156864e-05"></polygon>
+        <polygon id="path-3" points="0.447309231 0 0.447309231 37.6270588 10.43664 25.4376471 20.4259708 37.6270588 20.4259708 0"></polygon>
+        <polygon id="path-5" points="0 0 46 46 0 46"></polygon>
+        <polygon id="path-7" points="0 0 46 46 0 46"></polygon>
     </defs>
-    <g fill="none" fill-rule="evenodd">
-        <path fill="#FFF" d="M52 38h122v122H52z"/>
-        <path fill="#3B5A33" d="M9.666 139.69h92.307V10.787H9.666z"/>
-        <path fill="#7FD16B" d="M5.03 134.999h92.306V6.095H5.03z"/>
-        <g>
-            <mask id="b" fill="#fff">
-                <use xlink:href="#a"/>
-            </mask>
-            <use fill="#BBECB0" transform="matrix(-1 0 0 1 92.307 0)" xlink:href="#a"/>
-            <g stroke="#7FD16B" stroke-width="1.44" mask="url(#b)">
-                <path d="M93.455 94.424c-48.684 8.94-75.87-2.734-61.213-24.315C46.899 48.527 53.284 13.01 24.059 1.495 4.576-6.182 26.808-20.08 90.756-40.2c34.256 83.79 35.155 128.664 2.7 134.624z"/>
-                <path d="M131.937 75.017c-58.035 7.958-90.442-2.433-72.97-21.64C76.44 34.167 84.05 2.557 49.212-7.692 25.987-14.523 52.49-26.893 128.72-44.8c40.835 74.574 41.907 114.513 3.217 119.817z"/>
-                <path d="M98.537 107.108C37.334 140.291-26.386 109.19-5.32 88.05c21.066-21.14 30.243-55.929-11.761-67.208-28.003-7.52 4.311-23.073 96.944-46.66 53.25 66.496 59.475 110.804 18.674 132.926z"/>
+    <g id="Maquettes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage" transform="translate(-581.000000, -1659.000000)">
+            <g id="Group-17" transform="translate(581.000000, 1659.000000)">
+                <g id="icn--reconnu">
+                    <path d="" id="Path-11" stroke="#979797"></path>
+                    <g id="Group-12">
+                        <rect id="Rectangle-27-Copy" fill="#FFFFFF" x="52" y="38" width="122" height="122"></rect>
+                        <g id="Group-9">
+                            <polygon id="Fill-1" fill="#3B5A33" points="9.66646154 139.690235 101.973323 139.690235 101.973323 10.787098 9.66646154 10.787098"></polygon>
+                            <polygon id="Fill-2" fill="#7FD16B" points="5.02938462 134.998863 97.3362462 134.998863 97.3362462 6.09533333 5.02938462 6.09533333"></polygon>
+                            <g id="Path-7-+-Path-7-+-Path-7-Mask">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Mask" fill="#BBECB0" transform="translate(46.153431, 64.451804) scale(-1, 1) translate(-46.153431, -64.451804) " xlink:href="#path-1"></use>
+                                <g id="Group-10" mask="url(#mask-2)" stroke="#7FD16B" stroke-width="1.44">
+                                    <g transform="translate(66.171875, 38.700000) scale(-1, 1) translate(-66.171875, -38.700000) translate(-27.828125, -44.800000)" id="Path-7">
+                                        <path d="M66.7168113,139.224239 C115.401115,148.164735 142.586787,136.489951 127.930017,114.908544 C113.273248,93.3271378 106.888121,57.8105193 136.113062,46.2952219 C155.596356,38.618357 133.363995,24.7199497 69.4159787,4.6 C35.1603315,88.3891623 34.260609,133.263909 66.7168113,139.224239 Z"></path>
+                                        <path d="M28.2347005,119.81743 C86.2694969,127.774595 118.676553,117.383875 101.204748,98.1761259 C83.7329442,78.9683766 76.1214651,47.3580962 110.95946,37.1093227 C134.184789,30.276807 107.682396,17.9070327 31.4522803,0 C-9.38263715,74.5735103 -10.4551637,114.512654 28.2347005,119.81743 Z"></path>
+                                        <path d="M61.6353565,151.90829 C122.837754,185.091411 186.557839,153.990128 165.491886,132.850499 C144.425933,111.71087 135.248687,76.921286 177.253253,65.6417097 C205.256297,58.1219922 172.94163,42.568874 80.3092518,18.982355 C27.0583897,85.4775646 20.833758,129.78621 61.6353565,151.90829 Z"></path>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="Path-3" transform="translate(12.750000, 0.000000)">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <use id="Mask" fill="#3B5A33" xlink:href="#path-3"></use>
+                                <path d="M23.5928935,9.69551332 C16.951974,1.81800035 3.09082469,-3.3869792 -17.9905545,-5.91942536" stroke="#15350C" stroke-width="1.6" mask="url(#mask-4)"></path>
+                            </g>
+                        </g>
+                        <g id="Rectangle" transform="translate(149.000000, 114.000000)">
+                            <mask id="mask-6" fill="white">
+                                <use xlink:href="#path-5"></use>
+                            </mask>
+                            <use id="Mask" fill="#BBECB0" transform="translate(23.000000, 23.000000) scale(-1, -1) translate(-23.000000, -23.000000) " xlink:href="#path-5"></use>
+                        </g>
+                        <g id="Rectangle-Copy" transform="translate(149.000000, 68.000000)">
+                            <mask id="mask-8" fill="white">
+                                <use xlink:href="#path-7"></use>
+                            </mask>
+                            <use id="Mask" fill="#BBECB0" transform="translate(23.000000, 23.000000) scale(-1, -1) translate(-23.000000, -23.000000) " xlink:href="#path-7"></use>
+                        </g>
+                    </g>
+                    <polygon id="Path-4" fill="#7FD16B" points="174.004399 138.994495 174.004399 114.029603 149.053973 114.029603"></polygon>
+                    <polygon id="Path-4" fill="#7FD16B" points="174.004399 92.9944955 174.004399 68.0296025 149.053973 68.0296025"></polygon>
+                </g>
             </g>
-        </g>
-        <g transform="translate(12.75)">
-            <mask id="d" fill="#fff">
-                <use xlink:href="#c"/>
-            </mask>
-            <use fill="#3B5A33" xlink:href="#c"/>
-            <path stroke="#15350C" stroke-width="1.6" d="M23.593 9.696C16.952 1.818 3.09-3.387-17.991-5.92" mask="url(#d)"/>
-        </g>
-        <g transform="translate(149 114)">
-            <mask id="f" fill="#fff">
-                <use xlink:href="#e"/>
-            </mask>
-            <use fill="#BBECB0" transform="rotate(180 23 23)" xlink:href="#e"/>
-            <path fill="#7FD16B" d="M-6.897-7.931H25.62V32H-6.897z" mask="url(#f)"/>
-        </g>
-        <g transform="translate(149 68)">
-            <mask id="h" fill="#fff">
-                <use xlink:href="#g"/>
-            </mask>
-            <use fill="#BBECB0" transform="rotate(180 23 23)" xlink:href="#g"/>
-            <path fill="#7FD16B" d="M-6.897-7.931H25.62V33H-6.897z" mask="url(#h)"/>
         </g>
     </g>
 </svg>
