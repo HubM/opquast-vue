@@ -13,7 +13,7 @@
       line-height: 40px;
       @include breakpoint(other, 480px) {
         margin-bottom: 50px;
-        line-height: inherit;
+        line-height: 100%;
       }
     }
 
