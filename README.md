@@ -15,6 +15,10 @@ Le contenu de ce projet est un prototype de la refonte du site web, repensé ave
 ## Equipe 
 Audrey Ouazana, Florian Steriti, Antonin Stepha,y, Valentin Panis, Vincent Kloos, Hubert Moncenis
 
+## Licence
+Ce projet est sous licence CC BY-NC-ND 4.0 licence.
+Pour plus d'informations : https://creativecommons.org/licenses/by-nc-nd/4.0/
+
 ### Installation
 ``` bash
 # install dependencies
